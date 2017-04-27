@@ -1,0 +1,595 @@
+F:\CMS\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+F:\CMS\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+F:\CMS\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+F:\CMS\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+F:\CMS\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.DALayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.DALayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.DALayer\bin\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.DALayer\bin\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.DALayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.DALayer\bin\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.DALayer\bin\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.DALayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.DALayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.DALayer\bin\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.DALayer\bin\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.DALayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.DALayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.DALayer\bin\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.DALayer\bin\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.DALayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.1.010\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.1.010\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.1.010\CMS.DALayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.1.010\CMS.DALayer\bin\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.1.010\CMS.DALayer\bin\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.1.010\CMS.DALayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.1.010\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.1.010\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.1.010\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.111\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.111\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.111\CMS.DALayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.111\CMS.DALayer\bin\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.111\CMS.DALayer\bin\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.111\CMS.DALayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.111\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.111\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.111\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.211\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.211\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.211\CMS.DALayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.211\CMS.DALayer\bin\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.211\CMS.DALayer\bin\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.211\CMS.DALayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.211\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.211\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.211\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.215\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.215\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.215\CMS.DALayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.215\CMS.DALayer\bin\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.215\CMS.DALayer\bin\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.215\CMS.DALayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.215\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.215\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.215\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.219\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.219\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.219\CMS.DALayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.219\CMS.DALayer\bin\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.219\CMS.DALayer\bin\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.219\CMS.DALayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.219\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.219\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.219\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.DALayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.DALayer\bin\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.DALayer\bin\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.DALayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.DALayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.DALayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.229\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.229\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.229\CMS.DALayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.229\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.229\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.229\CMS.DALayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.229\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.229\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.229\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.DALayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.DALayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.DALayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.DALayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.DALayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.DALayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.DALayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.DALayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3312\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3312\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3312\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3312\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3312\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3312\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3312\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3312\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3312\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3312\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3312\CMS.DALayer\bin\Debug\CommonLayer.pdb
+F:\CMS 1.0.3312\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+F:\CMS 1.0.3312\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+F:\CMS 1.0.3312\CMS.DALayer\bin\Debug\CMS.Model.dll
+F:\CMS 1.0.3312\CMS.DALayer\bin\Debug\CommonLayer.dll
+F:\CMS 1.0.3312\CMS.DALayer\bin\Debug\DBUtility.dll
+F:\CMS 1.0.3312\CMS.DALayer\bin\Debug\DBUtility.pdb
+F:\CMS 1.0.3312\CMS.DALayer\bin\Debug\CommonLayer.pdb
+F:\CMS 1.0.3312\CMS.DALayer\bin\Debug\CMS.Model.pdb
+F:\CMS 1.0.3312\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+F:\CMS 1.0.3312\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+F:\CMS 1.0.3312\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3320\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3320\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3320\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3320\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3320\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3320\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3320\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3320\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3320\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3320\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3320\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3320\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3320\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3320\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3320\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3332\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3332\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3332\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3332\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3332\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3332\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3332\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3332\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3332\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3332\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3332\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3332\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3332\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3332\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3332\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3337\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3337\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3337\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3337\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3337\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3337\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3337\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3337\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3337\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3337\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3337\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3337\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3337\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3337\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3337\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3542\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3542\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3542\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3542\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3542\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3542\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3542\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3542\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3542\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3542\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3542\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3542\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3542\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3542\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3542\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3546\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3546\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3546\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3546\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3546\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3546\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3546\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3546\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3546\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3546\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3546\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3546\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3546\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3546\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3546\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3672\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3672\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3672\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3672\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3672\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3672\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3672\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3672\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3672\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3672\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3672\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3672\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3672\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3672\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3672\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3675\CMS.DALayer\bin\Debug\CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3675\CMS.DALayer\bin\Debug\DBUtility.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3675\CMS.DALayer\bin\Debug\DBUtility.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3675\CMS.DALayer\bin\Debug\DBUtility.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3675\CMS.DALayer\bin\Debug\CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3675\CMS.DALayer\bin\Debug\CommonLayer.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.Model.xml
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3675\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3675\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3675\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+G:\2013\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+G:\2013\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+G:\2013\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.Model.dll
+G:\2013\CMS 1.0.3675\CMS.DALayer\bin\Debug\CommonLayer.dll
+G:\2013\CMS 1.0.3675\CMS.DALayer\bin\Debug\DBUtility.dll
+G:\2013\CMS 1.0.3675\CMS.DALayer\bin\Debug\DBUtility.pdb
+G:\2013\CMS 1.0.3675\CMS.DALayer\bin\Debug\DBUtility.xml
+G:\2013\CMS 1.0.3675\CMS.DALayer\bin\Debug\CommonLayer.pdb
+G:\2013\CMS 1.0.3675\CMS.DALayer\bin\Debug\CommonLayer.xml
+G:\2013\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.Model.pdb
+G:\2013\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.Model.xml
+G:\2013\CMS 1.0.3675\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+G:\2013\CMS 1.0.3675\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+G:\2013\CMS 1.0.3675\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+G:\2013\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.Model.dll
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.DALayer\bin\Debug\CommonLayer.dll
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.DALayer\bin\Debug\DBUtility.dll
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.DALayer\bin\Debug\DBUtility.pdb
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.DALayer\bin\Debug\DBUtility.xml
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.DALayer\bin\Debug\CommonLayer.pdb
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.DALayer\bin\Debug\CommonLayer.xml
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.Model.pdb
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.Model.xml
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.DALayer\obj\Debug\CMS.DALayer.pdb
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+G:\2013\2013-04-12下午修改\4 源码\111\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.DALayer.XML
+G:\2013\2013-04-12下午修改\4 源码\111\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.DALayer.dll
+G:\2013\2013-04-12下午修改\4 源码\111\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.DALayer.pdb
+G:\2013\2013-04-12下午修改\4 源码\111\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.Model.dll
+G:\2013\2013-04-12下午修改\4 源码\111\CMS 1.0.3675\CMS.DALayer\bin\Debug\CommonLayer.dll
+G:\2013\2013-04-12下午修改\4 源码\111\CMS 1.0.3675\CMS.DALayer\bin\Debug\DBUtility.dll
+G:\2013\2013-04-12下午修改\4 源码\111\CMS 1.0.3675\CMS.DALayer\bin\Debug\DBUtility.pdb
+G:\2013\2013-04-12下午修改\4 源码\111\CMS 1.0.3675\CMS.DALayer\bin\Debug\DBUtility.xml
+G:\2013\2013-04-12下午修改\4 源码\111\CMS 1.0.3675\CMS.DALayer\bin\Debug\CommonLayer.pdb
+G:\2013\2013-04-12下午修改\4 源码\111\CMS 1.0.3675\CMS.DALayer\bin\Debug\CommonLayer.xml
+G:\2013\2013-04-12下午修改\4 源码\111\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.Model.pdb
+G:\2013\2013-04-12下午修改\4 源码\111\CMS 1.0.3675\CMS.DALayer\bin\Debug\CMS.Model.xml
+G:\2013\2013-04-12下午修改\4 源码\111\CMS 1.0.3675\CMS.DALayer\obj\Debug\ResolveAssemblyReference.cache
+G:\2013\2013-04-12下午修改\4 源码\111\CMS 1.0.3675\CMS.DALayer\obj\Debug\CMS.DALayer.dll
+G:\2013\2013-04-12下午修改\4 源码\111\CMS 1.0.3675\CMS.DALayer\obj\Debug\CMS.DALayer.pdb

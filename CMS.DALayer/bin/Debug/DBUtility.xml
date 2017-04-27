@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DBUtility</name>
+    </assembly>
+    <members>
+        <member name="T:DBUtility.IDALayer`1">
+            <summary>
+            DA层必须实现的公用方法接口
+            </summary>
+            <typeparam name="T">参数类型，主为实体类名称</typeparam>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:DBUtility.IDALayer`1.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+        </member>
+        <member name="M:DBUtility.IDALayer`1.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:DBUtility.IDALayer`1.Update(`0)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+        </member>
+        <member name="M:DBUtility.IDALayer`1.Insert(`0)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <!-- 对于成员“M:DBUtility.IDALayer`1.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBUtility.DbHelper.#ctor">
+            <summary>
+            构造函数，初始化类实例
+            </summary>
+        </member>
+        <!-- 对于成员“M:DBUtility.DbHelper.ExecuteNonQuery(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBUtility.DbHelper.ExecuteSqlInsertImg(System.String,System.Byte[])">
+            <summary>
+            向数据库里插入图像格式的字段
+            </summary>
+            <param name="SqlQuery">SQL语句</param>
+            <param name="photeFileStream">图像字节,数据库的字段类型为image的情况</param>
+            <returns>影响的记录数</returns>
+        </member>
+        <!-- 对于成员“M:DBUtility.DbHelper.ExecuteScalar(System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:DBUtility.DbHelper.GetDataReader(System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:DBUtility.DbHelper.GetDataReader(System.String,System.Data.SqlClient.SqlParameter[])”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:DBUtility.DbHelper.GetDataSet(System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:DBUtility.DbHelper.GetDataTable(System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:DBUtility.DbHelper.ExecNonReturnProc(System.String,System.Data.SqlClient.SqlParameter[])”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBUtility.DbHelper.GetProcCommand(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            构建针对存储过程的SqlCommand对象
+            </summary>
+            <param name="storedProcName">存储过程名</param>
+            <param name="parameters">存储过程参数</param>
+            <returns>SqlCommand</returns>
+        </member>
+        <!-- 对于成员“M:DBUtility.DbHelper.ExecReturnSingleProc(System.String,System.Data.SqlClient.SqlParameter[])”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBUtility.DbHelper.ExecGetDataSetProc(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            执行存储过程
+            </summary>
+            <param name="paramStoredProcName">存储过程名</param>
+            <param name="paramParameters">存储过程参数</param>
+            <returns>DataSet</returns>
+        </member>
+        <member name="M:DBUtility.DbEncrypt.MD5Encrypt(System.String)">
+            <summary>
+            MD5 加密静态方法
+            </summary>
+            <param name="EncryptString">待加密的密文</param>
+            <returns>returns</returns>
+        </member>
+        <member name="M:DBUtility.DbEncrypt.DESEncrypt(System.String,System.String)">
+            <summary>
+            DES 加密(数据加密标准，速度较快，适用于加密大量数据的场合)
+            </summary>
+            <param name="EncryptString">待加密的密文</param>
+            <param name="EncryptKey">加密的密钥</param>
+            <returns>returns</returns>
+        </member>
+        <member name="M:DBUtility.DbEncrypt.DESDecrypt(System.String,System.String)">
+            <summary>
+            DES 解密(数据加密标准，速度较快，适用于加密大量数据的场合)
+            </summary>
+            <param name="DecryptString">待解密的密文</param>
+            <param name="DecryptKey">解密的密钥</param>
+            <returns>returns</returns>
+        </member>
+        <member name="M:DBUtility.DbEncrypt.RC2Encrypt(System.String,System.String)">
+            <summary>
+            RC2 加密(用变长密钥对大量数据进行加密)
+            </summary>
+            <param name="EncryptString">待加密密文</param>
+            <param name="EncryptKey">加密密钥</param>
+            <returns>returns</returns>
+        </member>
+        <member name="M:DBUtility.DbEncrypt.RC2Decrypt(System.String,System.String)">
+            <summary>
+            RC2 解密(用变长密钥对大量数据进行加密)
+            </summary>
+            <param name="DecryptString">待解密密文</param>
+            <param name="DecryptKey">解密密钥</param>
+            <returns>returns</returns>
+        </member>
+        <member name="M:DBUtility.DbEncrypt.DES3Encrypt(System.String,System.String,System.String,System.String)">
+            <summary>
+            3DES 加密(基于DES，对一块数据用三个不同的密钥进行三次加密，强度更高)
+            </summary>
+            <param name="EncryptString">待加密密文</param>
+            <param name="EncryptKey1">密钥一</param>
+            <param name="EncryptKey2">密钥二</param>
+            <param name="EncryptKey3">密钥三</param>
+            <returns>returns</returns>
+        </member>
+        <member name="M:DBUtility.DbEncrypt.DES3Decrypt(System.String,System.String,System.String,System.String)">
+            <summary>
+            3DES 解密(基于DES，对一块数据用三个不同的密钥进行三次加密，强度更高)
+            </summary>
+            <param name="DecryptString">待解密密文</param>
+            <param name="DecryptKey1">密钥一</param>
+            <param name="DecryptKey2">密钥二</param>
+            <param name="DecryptKey3">密钥三</param>
+            <returns>returns</returns>
+        </member>
+        <member name="M:DBUtility.DbEncrypt.AESEncrypt(System.String,System.String)">
+            <summary>
+            AES 加密(高级加密标准，是下一代的加密算法标准，速度快，安全级别高，目前 AES 标准的一个实现是 Rijndael 算法)
+            </summary>
+            <param name="EncryptString">待加密密文</param>
+            <param name="EncryptKey">加密密钥</param>
+            <returns></returns>
+        </member>
+        <member name="M:DBUtility.DbEncrypt.AESDecrypt(System.String,System.String)">
+            <summary>
+            AES 解密(高级加密标准，是下一代的加密算法标准，速度快，安全级别高，目前 AES 标准的一个实现是 Rijndael 算法)
+            </summary>
+            <param name="DecryptString">待解密密文</param>
+            <param name="DecryptKey">解密密钥</param>
+            <returns></returns>
+        </member>
+        <member name="P:DBUtility.AssemblyAttribute.AssemblyTitle">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:DBUtility.AssemblyAttribute.AssemblyVersion">
+            <summary>
+            版本
+            </summary>
+        </member>
+        <member name="P:DBUtility.AssemblyAttribute.AssemblyDescription">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:DBUtility.AssemblyAttribute.AssemblyProduct">
+            <summary>
+            产品
+            </summary>
+        </member>
+        <member name="P:DBUtility.AssemblyAttribute.AssemblyCopyright">
+            <summary>
+            版权
+            </summary>
+        </member>
+        <member name="P:DBUtility.AssemblyAttribute.AssemblyCompany">
+            <summary>
+            公司
+            </summary>
+        </member>
+        <member name="M:DBUtility.PubConstant.GetConnectionString">
+            <summary>
+            获取连接字符串
+            </summary>
+        </member>
+        <member name="P:DBUtility.PubConstant.ConnectionString">
+            <summary>
+            数据库连接字符串
+            </summary>
+        </member>
+        <member name="M:DBUtility.DbOperator.InspectDatabase(System.String)">
+            <summary>
+            检查是否存在指定数据库
+            </summary>
+        </member>
+        <member name="M:DBUtility.DbOperator.InspectSqlserver">
+            <summary>
+            检查是否安装Sql server
+            </summary>
+        </member>
+        <member name="M:DBUtility.DbOperator.AttachDatabase">
+            <summary>
+            附加数据库(sp_attach_db [ @dbname = ] 'dbname', [ @filename1 = ] 'filename_n' [ ,...16 ])
+            其中dbname-要附加到服务器的数据库的名称,filename_n-数据库文件的物理名称，包括路径
+            </summary>
+        </member>
+        <member name="M:DBUtility.DbOperator.DetachDatabase">
+            <summary>
+            分离数据库
+            </summary>
+        </member>
+        <member name="M:DBUtility.DbOperator.DataBaseBackUp(System.String)">
+            <summary>
+            备份数据库
+            </summary>
+            <param name="paramBackUpPath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DBUtility.DbOperator.DataBaseRecover(System.String)">
+            <summary>
+            还原数据库
+            </summary>
+            <param name="paramRecoverPath"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DBUtility.DbHelperSQL">
+            <summary>
+            数据访问基础类(基于OleDb)
+            </summary>
+        </member>
+        <member name="M:DBUtility.DbHelperSQL.ColumnExists(System.String,System.String)">
+            <summary>
+            判断是否存在某表的某个字段
+            </summary>
+            <param name="tableName">表名称</param>
+            <param name="columnName">列名称</param>
+            <returns>是否存在</returns>
+        </member>
+        <member name="M:DBUtility.DbHelperSQL.GetMaxID(System.String,System.String)">
+            <summary>
+            从表中获取指定列的最大值：注意目的列的类型为int
+            </summary>
+            <param name="FieldName">字段名称</param>
+            <param name="TableName">表名称</param>
+            <returns>最大值</returns>
+        </member>
+        <member name="M:DBUtility.DbHelperSQL.TabExists(System.String)">
+            <summary>
+            表是否存在
+            </summary>
+            <param name="TableName">表名称</param>
+            <returns>是否存在</returns>
+        </member>
+        <!-- 对于成员“M:DBUtility.DbHelperSQL.ExecuteNonQuery(System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:DBUtility.DbHelperSQL.ExecuteScalar(System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:DBUtility.DbHelperSQL.GetDataReader(System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:DBUtility.DbHelperSQL.GetDataReader(System.String,System.Data.SqlClient.SqlParameter[])”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBUtility.DbHelperSQL.GetDataTable(System.String)">
+            <summary>
+            获得一张数据表
+            </summary>
+            <param name="paramSqlQuery">SQL查询语句</param>
+            <returns>数据表</returns>
+        </member>
+        <!-- 对于成员“M:DBUtility.DbHelperSQL.ExecuteSql(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBUtility.DbHelperSQL.ExecuteSqlByTime(System.String,System.Int32)">
+            <summary>
+            在指定的时间内执行SQL语句
+            </summary>
+            <param name="paramSqlQuery"></param>
+            <param name="Times"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DBUtility.DbHelperSQL.ExecuteSqlTran(System.Collections.Generic.List{System.String})">
+            <summary>
+            执行多条SQL语句，实现数据库事务。
+            </summary>
+            <param name="SQLStringList">多条SQL语句</param>		
+        </member>
+        <member name="M:DBUtility.DbHelperSQL.ExecuteSql(System.String,System.String)">
+            <summary>
+            执行带一个存储过程参数的的SQL语句。
+            </summary>
+            <param name="paramSqlQuery">SQL语句</param>
+            <param name="content">参数内容,比如一个字段是格式复杂的文章，有特殊符号，可以通过这个方式添加</param>
+            <returns>影响的记录数</returns>
+        </member>
+        <member name="M:DBUtility.DbHelperSQL.ExecuteSqlGet(System.String,System.String)">
+            <summary>
+            执行带一个存储过程参数的的SQL语句。
+            </summary>
+            <param name="paramSqlQuery">SQL语句</param>
+            <param name="content">参数内容,比如一个字段是格式复杂的文章，有特殊符号，可以通过这个方式添加</param>
+            <returns>影响的记录数</returns>
+        </member>
+        <member name="M:DBUtility.DbHelperSQL.ExecuteSqlInsertImg(System.String,System.Byte[])">
+            <summary>
+            向数据库里插入图像格式的字段(和上面情况类似的另一种实例)
+            </summary>
+            <param name="paramSqlQuery">SQL语句</param>
+            <param name="fs">图像字节,数据库的字段类型为image的情况</param>
+            <returns>影响的记录数</returns>
+        </member>
+        <!-- 对于成员“M:DBUtility.DbHelperSQL.GetSingle(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBUtility.DbHelperSQL.GetSingle(System.String,System.Int32)">
+            <summary>
+            在指定时间内获得单个查询信息
+            </summary>
+            <param name="paramSqlQuery"></param>
+            <param name="Times"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DBUtility.DbHelperSQL.GetDataSet(System.String)">
+            <summary>
+            获得指定数据集
+            </summary>
+            <param name="paramSqlQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DBUtility.DbHelperSQL.GetDataSet(System.String,System.Int32)">
+            <summary>
+            在规定时间内获得指定数据集
+            </summary>
+            <param name="paramSqlQuery"></param>
+            <param name="Times"></param>
+            <returns></returns>
+        </member>
+        <!-- 对于成员“M:DBUtility.DbHelperSQL.ExecuteSql(System.String,System.Data.SqlClient.SqlParameter[])”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBUtility.DbHelperSQL.ExecuteSqlTran(System.Collections.Hashtable)">
+            <summary>
+            执行多条SQL语句，实现数据库事务。
+            </summary>
+            <param name="SQLStringList">SQL语句的哈希表（key为SqlQuery语句，value是该语句的SqlParameter[]）</param>
+        </member>
+        <member name="M:DBUtility.DbHelperSQL.ExecuteSqlTran(System.Collections.Generic.List{DBUtility.CommandInfo})">
+            <summary>
+            执行多条SQL语句，实现数据库事务。
+            </summary>
+            <param name="SQLStringList">SQL语句的哈希表（key为SqlQuery语句，value是该语句的SqlParameter[]）</param>
+        </member>
+        <member name="M:DBUtility.DbHelperSQL.ExecuteSqlTranWithIndentity(System.Collections.Generic.List{DBUtility.CommandInfo})">
+            <summary>
+            执行多条SQL语句，实现数据库事务。
+            </summary>
+            <param name="SQLStringList">SQL语句的哈希表（key为SqlQuery语句，value是该语句的SqlParameter[]）</param>
+        </member>
+        <member name="M:DBUtility.DbHelperSQL.ExecuteSqlTranWithIndentity(System.Collections.Hashtable)">
+            <summary>
+            执行多条SQL语句，实现数据库事务。
+            </summary>
+            <param name="SQLStringList">SQL语句的哈希表（key为SqlQuery语句，value是该语句的SqlParameter[]）</param>
+        </member>
+        <!-- 对于成员“M:DBUtility.DbHelperSQL.GetSingle(System.String,System.Data.SqlClient.SqlParameter[])”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:DBUtility.DbHelperSQL.GetDataSet(System.String,System.Data.SqlClient.SqlParameter[])”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:DBUtility.DbHelperSQL.ExecNonReturnProc(System.String,System.Data.SqlClient.SqlParameter[])”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:DBUtility.DbHelperSQL.ExecReturnSingleProc(System.String,System.Data.SqlClient.SqlParameter[])”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:DBUtility.DbHelperSQL.RunProcedure(System.String,System.Data.IDataParameter[])”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBUtility.DbHelperSQL.ExecGetDataSetProc(System.String,System.Data.IDataParameter[],System.String)">
+            <summary>
+            执行存储过程
+            </summary>
+            <param name="storedProcName">存储过程名</param>
+            <param name="parameters">存储过程参数</param>
+            <param name="tableName">DataSet结果中的表名</param>
+            <returns>DataSet</returns>
+        </member>
+        <!-- 对于成员“M:DBUtility.DbHelperSQL.GetProcCommand(System.Data.SqlClient.SqlConnection,System.String,System.Data.IDataParameter[])”忽略有格式错误的 XML 注释 -->
+        <member name="F:DBUtility.EffentNextType.None">
+            <summary>
+            对其他语句无任何影响 
+            </summary>
+        </member>
+        <member name="F:DBUtility.EffentNextType.WhenHaveContine">
+            <summary>
+            当前语句必须为"select count(1) from .."格式，如果存在则继续执行，不存在回滚事务
+            </summary>
+        </member>
+        <member name="F:DBUtility.EffentNextType.WhenNoHaveContine">
+            <summary>
+            当前语句必须为"select count(1) from .."格式，如果不存在则继续执行，存在回滚事务
+            </summary>
+        </member>
+        <member name="F:DBUtility.EffentNextType.ExcuteEffectRows">
+            <summary>
+            当前语句影响到的行数必须大于0，否则回滚事务
+            </summary>
+        </member>
+        <member name="F:DBUtility.EffentNextType.SolicitationEvent">
+            <summary>
+            引发事件-当前语句必须为"select count(1) from .."格式，如果不存在则继续执行，存在回滚事务
+            </summary>
+        </member>
+    </members>
+</doc>

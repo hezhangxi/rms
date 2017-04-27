@@ -1,0 +1,828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{003A5785-6BFB-41D3-9513-0BEE694A6736}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CMS.UILayer</RootNamespace>
+    <AssemblyName>CMS.UILayer</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>bigfood.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\CMS.UILayer.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v9.2.Core, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bin\DevExpress.Charts.v9.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bin\DevExpress.Data.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bin\DevExpress.Utils.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bin\DevExpress.XtraBars.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bin\DevExpress.XtraCharts.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v9.2.UI, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bin\DevExpress.XtraCharts.v9.2.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bin\DevExpress.XtraEditors.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bin\DevExpress.XtraGrid.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bin\DevExpress.XtraLayout.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bin\DevExpress.XtraNavBar.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v9.2.Core, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bin\DevExpress.XtraPrinting.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v9.2.Core, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassAssist\BuffetOperator.cs" />
+    <Compile Include="ClassAssist\CommonOperator.cs" />
+    <Compile Include="ClassAssist\DataOperator.cs" />
+    <Compile Include="ClassAssist\Encryption.cs" />
+    <Compile Include="ClassAssist\DocumentPrint.cs" />
+    <Compile Include="ClassAssist\INIOperator.cs" />
+    <Compile Include="ClassAssist\SysExamine.cs" />
+    <Compile Include="ClassAssist\SysModule.cs" />
+    <Compile Include="ClassAssist\SysUser.cs" />
+    <Compile Include="frmAssist\frmAttach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssist\frmAttach.designer.cs">
+      <DependentUpon>frmAttach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAssist\frmBAMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssist\frmBAMain.Designer.cs">
+      <DependentUpon>frmBAMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAssist\frmClosing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssist\frmClosing.designer.cs">
+      <DependentUpon>frmClosing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAssist\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssist\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAssist\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssist\frmMain.designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAssist\frmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssist\frmTest.Designer.cs">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBasicInfo\frmBasicMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBasicInfo\frmBasicMaintenance.Designer.cs">
+      <DependentUpon>frmBasicMaintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBasicInfo\frmBuffInfoManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBasicInfo\frmBuffInfoManagement.Designer.cs">
+      <DependentUpon>frmBuffInfoManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBasicInfo\frmBuffInfoOperate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBasicInfo\frmBuffInfoOperate.Designer.cs">
+      <DependentUpon>frmBuffInfoOperate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBasicInfo\frmDishInfoMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBasicInfo\frmDishInfoMaintenance.Designer.cs">
+      <DependentUpon>frmDishInfoMaintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBasicInfo\frmDishInfoOperate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBasicInfo\frmDishInfoOperate.Designer.cs">
+      <DependentUpon>frmDishInfoOperate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBasicInfo\frmFoundingOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBasicInfo\frmFoundingOrder.Designer.cs">
+      <DependentUpon>frmFoundingOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBasicInfo\frmPublicOperateArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBasicInfo\frmPublicOperateArea.Designer.cs">
+      <DependentUpon>frmPublicOperateArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBasicInfo\frmRoomInfoOperate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBasicInfo\frmRoomInfoOperate.designer.cs">
+      <DependentUpon>frmRoomInfoOperate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmBackResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmBackResult.Designer.cs">
+      <DependentUpon>frmBackResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmBuffetBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmBuffetBook.Designer.cs">
+      <DependentUpon>frmBuffetBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmBuffetBookSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmBuffetBookSearch.Designer.cs">
+      <DependentUpon>frmBuffetBookSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmBuffetRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmBuffetRegister.Designer.cs">
+      <DependentUpon>frmBuffetRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmCheckOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmCheckOut.Designer.cs">
+      <DependentUpon>frmCheckOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmCustomerCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmCustomerCheck.Designer.cs">
+      <DependentUpon>frmCustomerCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmCustomerDine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmCustomerDine.Designer.cs">
+      <DependentUpon>frmCustomerDine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmDineRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmDineRegister.Designer.cs">
+      <DependentUpon>frmDineRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmDiningTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmDiningTable.Designer.cs">
+      <DependentUpon>frmDiningTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmIndependentBusiness.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmIndependentBusiness.Designer.cs">
+      <DependentUpon>frmIndependentBusiness.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmScheduledDeterminee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBCarryOut\frmScheduledDeterminee.Designer.cs">
+      <DependentUpon>frmScheduledDeterminee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBusiness\frmRetreatSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBusiness\frmRetreatSearch.Designer.cs">
+      <DependentUpon>frmRetreatSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBusiness\frmSellInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBusiness\frmSellInfo.Designer.cs">
+      <DependentUpon>frmSellInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBusiness\frmTurnoverStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBusiness\frmTurnoverStatistics.Designer.cs">
+      <DependentUpon>frmTurnoverStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployee\frmAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployee\frmAdd.designer.cs">
+      <DependentUpon>frmAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployee\frmAddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployee\frmAddEmployee.designer.cs">
+      <DependentUpon>frmAddEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployee\frmAddPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployee\frmAddPosition.designer.cs">
+      <DependentUpon>frmAddPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployee\frmEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployee\frmEmployee.designer.cs">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployee\frmEpmloyeePerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployee\frmEpmloyeePerformance.designer.cs">
+      <DependentUpon>frmEpmloyeePerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployee\frmSetEmployeeInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployee\frmSetEmployeeInfo.designer.cs">
+      <DependentUpon>frmSetEmployeeInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinance\frmFinaceOperate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinance\frmFinaceOperate.designer.cs">
+      <DependentUpon>frmFinaceOperate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinance\frmFinanceInOutManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinance\frmFinanceInOutManagement.designer.cs">
+      <DependentUpon>frmFinanceInOutManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinance\frmFinanceRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinance\frmFinanceRegister.designer.cs">
+      <DependentUpon>frmFinanceRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinance\frmFinanceRegisterOperate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinance\frmFinanceRegisterOperate.designer.cs">
+      <DependentUpon>frmFinanceRegisterOperate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinance\frmInOutDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinance\frmInOutDetail.designer.cs">
+      <DependentUpon>frmInOutDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGeneralTool\frmDataMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGeneralTool\frmDataMaintenance.designer.cs">
+      <DependentUpon>frmDataMaintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGeneralTool\frmSysOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGeneralTool\frmSysOption.designer.cs">
+      <DependentUpon>frmSysOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGeneralTool\SysDataConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGeneralTool\SysDataConfig.designer.cs">
+      <DependentUpon>SysDataConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHelp\frmAboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHelp\frmAboutBox.Designer.cs">
+      <DependentUpon>frmAboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHelp\frmCAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHelp\frmCAuthor.Designer.cs">
+      <DependentUpon>frmCAuthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOther\frmPrintSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOther\frmPrintSet.designer.cs">
+      <DependentUpon>frmPrintSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOther\frmProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOther\frmProcess.designer.cs">
+      <DependentUpon>frmProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSysSet\frmCertainPWD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSysSet\frmCertainPWD.Designer.cs">
+      <DependentUpon>frmCertainPWD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSysSet\frmRightAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSysSet\frmRightAdd.Designer.cs">
+      <DependentUpon>frmRightAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSysSet\frmRightManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSysSet\frmRightManagement.Designer.cs">
+      <DependentUpon>frmRightManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSysSet\frmSysLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSysSet\frmSysLog.Designer.cs">
+      <DependentUpon>frmSysLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSysSet\frmUserAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSysSet\frmUserAdd.Designer.cs">
+      <DependentUpon>frmUserAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSysSet\frmUserManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSysSet\frmUserManagement.Designer.cs">
+      <DependentUpon>frmUserManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVIPClient\frmClientInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVIPClient\frmClientInformation.designer.cs">
+      <DependentUpon>frmClientInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVIPClient\frmPutInCost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVIPClient\frmPutInCost.designer.cs">
+      <DependentUpon>frmPutInCost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVIPClient\frmRegisterClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVIPClient\frmRegisterClient.designer.cs">
+      <DependentUpon>frmRegisterClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVIPClient\frmRegisterNewVIP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVIPClient\frmRegisterNewVIP.designer.cs">
+      <DependentUpon>frmRegisterNewVIP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVIPClient\frmSetVIP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVIPClient\frmSetVIP.designer.cs">
+      <DependentUpon>frmSetVIP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVIPClient\frmUpdateVIPCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVIPClient\frmUpdateVIPCard.designer.cs">
+      <DependentUpon>frmUpdateVIPCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVIPClient\frmVIPInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVIPClient\frmVIPInformation.designer.cs">
+      <DependentUpon>frmVIPInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVIPClient\frmVIPSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVIPClient\frmVIPSearch.designer.cs">
+      <DependentUpon>frmVIPSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWarehouse\frmAddStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWarehouse\frmAddStock.designer.cs">
+      <DependentUpon>frmAddStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWarehouse\frmDetaileStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWarehouse\frmDetaileStock.designer.cs">
+      <DependentUpon>frmDetaileStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWarehouse\frmInGoods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWarehouse\frmInGoods.designer.cs">
+      <DependentUpon>frmInGoods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWarehouse\frmSelectGoods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWarehouse\frmSelectGoods.designer.cs">
+      <DependentUpon>frmSelectGoods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWarehouse\frmSelectStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWarehouse\frmSelectStock.designer.cs">
+      <DependentUpon>frmSelectStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWarehouse\frmStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWarehouse\frmStatistics.designer.cs">
+      <DependentUpon>frmStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAssist\frmAttach.resx">
+      <DependentUpon>frmAttach.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAssist\frmBAMain.resx">
+      <DependentUpon>frmBAMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAssist\frmClosing.resx">
+      <DependentUpon>frmClosing.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAssist\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAssist\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAssist\frmTest.resx">
+      <DependentUpon>frmTest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBasicInfo\frmBasicMaintenance.resx">
+      <DependentUpon>frmBasicMaintenance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBasicInfo\frmBuffInfoManagement.resx">
+      <DependentUpon>frmBuffInfoManagement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBasicInfo\frmBuffInfoOperate.resx">
+      <DependentUpon>frmBuffInfoOperate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBasicInfo\frmDishInfoMaintenance.resx">
+      <DependentUpon>frmDishInfoMaintenance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBasicInfo\frmDishInfoOperate.resx">
+      <DependentUpon>frmDishInfoOperate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBasicInfo\frmFoundingOrder.resx">
+      <DependentUpon>frmFoundingOrder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBasicInfo\frmPublicOperateArea.resx">
+      <DependentUpon>frmPublicOperateArea.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBasicInfo\frmRoomInfoOperate.resx">
+      <DependentUpon>frmRoomInfoOperate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBCarryOut\frmBackResult.resx">
+      <DependentUpon>frmBackResult.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBCarryOut\frmBuffetBook.resx">
+      <DependentUpon>frmBuffetBook.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBCarryOut\frmBuffetBookSearch.resx">
+      <DependentUpon>frmBuffetBookSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBCarryOut\frmBuffetRegister.resx">
+      <DependentUpon>frmBuffetRegister.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBCarryOut\frmCheckOut.resx">
+      <DependentUpon>frmCheckOut.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBCarryOut\frmCustomerCheck.resx">
+      <DependentUpon>frmCustomerCheck.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBCarryOut\frmCustomerDine.resx">
+      <DependentUpon>frmCustomerDine.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBCarryOut\frmDineRegister.resx">
+      <DependentUpon>frmDineRegister.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBCarryOut\frmDiningTable.resx">
+      <DependentUpon>frmDiningTable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBCarryOut\frmIndependentBusiness.resx">
+      <DependentUpon>frmIndependentBusiness.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBCarryOut\frmScheduledDeterminee.resx">
+      <DependentUpon>frmScheduledDeterminee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBusiness\frmRetreatSearch.resx">
+      <DependentUpon>frmRetreatSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBusiness\frmSellInfo.resx">
+      <DependentUpon>frmSellInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBusiness\frmTurnoverStatistics.resx">
+      <DependentUpon>frmTurnoverStatistics.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployee\frmAdd.resx">
+      <DependentUpon>frmAdd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployee\frmAddEmployee.resx">
+      <DependentUpon>frmAddEmployee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployee\frmAddPosition.resx">
+      <DependentUpon>frmAddPosition.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployee\frmEmployee.resx">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployee\frmEpmloyeePerformance.resx">
+      <DependentUpon>frmEpmloyeePerformance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployee\frmSetEmployeeInfo.resx">
+      <DependentUpon>frmSetEmployeeInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinance\frmFinaceOperate.resx">
+      <DependentUpon>frmFinaceOperate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinance\frmFinanceInOutManagement.resx">
+      <DependentUpon>frmFinanceInOutManagement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinance\frmFinanceRegister.resx">
+      <DependentUpon>frmFinanceRegister.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinance\frmFinanceRegisterOperate.resx">
+      <DependentUpon>frmFinanceRegisterOperate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinance\frmInOutDetail.resx">
+      <DependentUpon>frmInOutDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGeneralTool\frmDataMaintenance.resx">
+      <DependentUpon>frmDataMaintenance.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGeneralTool\frmSysOption.resx">
+      <DependentUpon>frmSysOption.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGeneralTool\SysDataConfig.resx">
+      <DependentUpon>SysDataConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelp\frmAboutBox.resx">
+      <DependentUpon>frmAboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelp\frmCAuthor.resx">
+      <DependentUpon>frmCAuthor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOther\frmPrintSet.resx">
+      <DependentUpon>frmPrintSet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOther\frmProcess.resx">
+      <DependentUpon>frmProcess.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSysSet\frmCertainPWD.resx">
+      <DependentUpon>frmCertainPWD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSysSet\frmRightAdd.resx">
+      <DependentUpon>frmRightAdd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSysSet\frmRightManagement.resx">
+      <DependentUpon>frmRightManagement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSysSet\frmSysLog.resx">
+      <DependentUpon>frmSysLog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSysSet\frmUserAdd.resx">
+      <DependentUpon>frmUserAdd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSysSet\frmUserManagement.resx">
+      <DependentUpon>frmUserManagement.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVIPClient\frmClientInformation.resx">
+      <DependentUpon>frmClientInformation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVIPClient\frmPutInCost.resx">
+      <DependentUpon>frmPutInCost.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVIPClient\frmRegisterClient.resx">
+      <DependentUpon>frmRegisterClient.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVIPClient\frmRegisterNewVIP.resx">
+      <DependentUpon>frmRegisterNewVIP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVIPClient\frmSetVIP.resx">
+      <DependentUpon>frmSetVIP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVIPClient\frmUpdateVIPCard.resx">
+      <DependentUpon>frmUpdateVIPCard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVIPClient\frmVIPInformation.resx">
+      <DependentUpon>frmVIPInformation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVIPClient\frmVIPSearch.resx">
+      <DependentUpon>frmVIPSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWarehouse\frmAddStock.resx">
+      <DependentUpon>frmAddStock.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWarehouse\frmDetaileStock.resx">
+      <DependentUpon>frmDetaileStock.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWarehouse\frmInGoods.resx">
+      <DependentUpon>frmInGoods.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWarehouse\frmSelectGoods.resx">
+      <DependentUpon>frmSelectGoods.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWarehouse\frmSelectStock.resx">
+      <DependentUpon>frmSelectStock.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWarehouse\frmStatistics.resx">
+      <DependentUpon>frmStatistics.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CMS.BULayer\CMS.BULayer.csproj">
+      <Project>{93877F35-F29C-40C1-BD7F-71A504653F36}</Project>
+      <Name>CMS.BULayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonLayer\CommonLayer.csproj">
+      <Project>{06C7D7AE-FE3C-4556-BFDD-AEDF6973CC64}</Project>
+      <Name>CommonLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMS.Model\CMS.Model.csproj">
+      <Project>{91B202FC-C4CD-4389-8784-3B676CB799B9}</Project>
+      <Name>CMS.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{A849CB6C-940F-4EDE-B62A-FC895BE36E1D}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\food.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bigfood.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UserControls\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

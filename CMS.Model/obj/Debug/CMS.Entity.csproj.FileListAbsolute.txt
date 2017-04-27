@@ -1,0 +1,5 @@
+F:\CMS\CMS.Entity\bin\Debug\CMS.Entity.dll
+F:\CMS\CMS.Entity\bin\Debug\CMS.Entity.pdb
+F:\CMS\CMS.Entity\obj\Debug\ResolveAssemblyReference.cache
+F:\CMS\CMS.Entity\obj\Debug\CMS.Entity.dll
+F:\CMS\CMS.Entity\obj\Debug\CMS.Entity.pdb

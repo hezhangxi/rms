@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{91B202FC-C4CD-4389-8784-3B676CB799B9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CMS.Model</RootNamespace>
+    <AssemblyName>CMS.Model</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\CMS.Model.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ModelCMS_BorrowGoods.cs" />
+    <Compile Include="ModelCMS_BuffetBooking.cs" />
+    <Compile Include="ModelCMS_Buffets.cs" />
+    <Compile Include="ModelCMS_ConsumptionDish.cs" />
+    <Compile Include="ModelCMS_Consumption.cs" />
+    <Compile Include="ModelCMS_ConsumptionReg.cs" />
+    <Compile Include="ModelCMS_DishServer.cs" />
+    <Compile Include="ModelCMS_DPInfo.cs" />
+    <Compile Include="ModelCMS_Employee.cs" />
+    <Compile Include="ModelCMS_Equipment.cs" />
+    <Compile Include="ModelCMS_InGoods.cs" />
+    <Compile Include="ModelCMS_ItemDetail.cs" />
+    <Compile Include="ModelCMS_ItemType.cs" />
+    <Compile Include="ModelCMS_PaymentsDetail.cs" />
+    <Compile Include="ModelCMS_PaymentsItem.cs" />
+    <Compile Include="ModelCMS_Performance.cs" />
+    <Compile Include="ModelCMS_RetreatDishes.cs" />
+    <Compile Include="ModelCMS_ReturnGoods.cs" />
+    <Compile Include="ModelCMS_RoomType.cs" />
+    <Compile Include="ModelCMS_Stock.cs" />
+    <Compile Include="ModelCMS_VIPClient.cs" />
+    <Compile Include="ModelCMS_VIPType.cs" />
+    <Compile Include="ModelT_ItemDetail.cs" />
+    <Compile Include="ModelT_ItemType.cs" />
+    <Compile Include="ModelT_Module.cs" />
+    <Compile Include="ModelT_Right.cs" />
+    <Compile Include="ModelT_Right_Module_Map.cs" />
+    <Compile Include="ModelT_SysLog.cs" />
+    <Compile Include="ModelT_User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

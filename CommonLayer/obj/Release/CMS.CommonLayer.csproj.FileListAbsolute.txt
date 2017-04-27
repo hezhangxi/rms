@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.CommonLayer\bin\Release\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.CommonLayer\bin\Release\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.CommonLayer\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.CommonLayer\obj\Release\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.CommonLayer\obj\Release\CMS.CommonLayer.pdb

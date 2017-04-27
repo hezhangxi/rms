@@ -1,0 +1,1274 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CMS.DALayer</name>
+    </assembly>
+    <members>
+        <member name="T:CMS.DALayer.DAT_User">
+            <summary>
+            数据访问类DAT_User 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DAT_User.GetAllUserInfo">
+            <summary>
+            获得所有用户的信息
+            </summary>
+            <returns>存储用户信息的DataSet</returns>
+        </member>
+        <member name="M:CMS.DALayer.DAT_User.CheckLogin(System.String,System.Data.SqlClient.SqlParameter[])">
+             <summary>
+             检测用户登录
+             </summary>
+            <param name="paramParameters">存储过程所需参数</param>
+            <param name="paramStoredProcName">存储过程名称</param>
+        </member>
+        <member name="M:CMS.DALayer.DAT_User.GetUserRight(System.String,System.Data.SqlClient.SqlParameter[])">
+             <summary>
+             得到用户权限
+             </summary>
+            <param name="paramParameters">存储过程所需参数</param>
+            <param name="paramStoredProcName">存储过程名称</param>
+        </member>
+        <member name="M:CMS.DALayer.DAT_User.GetUserRightID(System.String,System.String)">
+            <summary>
+            得到用户权限ID
+            </summary>
+            <param name="paramUserName">用户名称</param>
+            <param name="paramPassword">用户密码</param>
+            <returns>object</returns>
+        </member>
+        <member name="M:CMS.DALayer.DAT_User.GetUserPWD(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            获得用户密码
+            </summary>
+            <param name="paramStoredProcName">存储过程名称</param>
+            <param name="paramParameters">存储过程所需参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DAT_User.UpdateUserInfo(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            更新用户信息
+            </summary>
+            <param name="paramStoredProcName">存储过程名称</param>
+            <param name="paramParameters">存储过程所需参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DAT_User.AddUserInfo(System.String,System.Data.SqlClient.SqlParameter[])">
+            <summary>
+            添加用户信息
+            </summary>
+            <param name="paramStoredProcName">存储过程名称</param>
+            <param name="paramParameters">存储过程所需参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DAT_User.GetUserIDByName(System.String)">
+            <summary>
+            根据用户的名称得到用户ID
+            </summary>
+            <param name="paramUserName">用户名称</param>
+            <returns>影响的行数</returns>
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DAT_User.DeleteUser(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.DALayer.DACMS_Employee">
+            <summary>
+            数据访问类DACMS_Employee 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_Employee.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_Employee.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.DALayer.DACMS_Employee.Update(CMS.Model.ModelCMS_Employee)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_Employee.Insert(CMS.Model.ModelCMS_Employee)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DACMS_Employee.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:CMS.DALayer.DACMS_Employee.GetOrderView(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            Gets the order view.
+            </summary>
+            <param name="IsView">if set to <c>true</c> [is view].</param>
+            <param name="paramField">The param field.</param>
+            <param name="paramContent">Content of the param.</param>
+            <param name="IsFuzzy">if set to <c>true</c> [is fuzzy].</param>
+            <returns></returns>
+            整理人：桂书丛
+            整理时间：2013-03-06
+        </member>
+        <member name="T:CMS.DALayer.DACMS_Consumption">
+            <summary>
+            数据访问类DACMS_Consumption 
+            </summary>
+        </member>
+        <member name="T:CMS.DALayer.DACMS_BuffetBooking">
+            <summary>
+            数据访问类DACMS_BuffetBooking 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_BuffetBooking.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-2-28
+        </member>
+        <member name="M:CMS.DALayer.DACMS_BuffetBooking.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-2-28
+        </member>
+        <member name="M:CMS.DALayer.DACMS_BuffetBooking.Update(CMS.Model.ModelCMS_BuffetBooking)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-2-28
+        </member>
+        <member name="M:CMS.DALayer.DACMS_BuffetBooking.Insert(CMS.Model.ModelCMS_BuffetBooking)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-2-28
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DACMS_BuffetBooking.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.DALayer.DACMS_VIPType">
+            <summary>
+            数据访问类DACMS_VIPType 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_VIPType.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_VIPType.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_VIPType.Update(CMS.Model.ModelCMS_VIPType)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_VIPType.Insert(CMS.Model.ModelCMS_VIPType)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model">The model.</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DACMS_VIPType.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.DALayer.DACMS_ConsumptionReg">
+            <summary>
+            数据访问类DACMS_ConsumptionReg 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ConsumptionReg.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ConsumptionReg.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ConsumptionReg.Update(CMS.Model.ModelCMS_ConsumptionReg)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ConsumptionReg.Insert(CMS.Model.ModelCMS_ConsumptionReg)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DACMS_ConsumptionReg.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:CMS.DALayer.DACMS_ConsumptionReg.Delete">
+            <summary>
+            清空
+            </summary>
+            <param name="paramID"></param>
+            <param name="paramIsClear"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CMS.DALayer.DAT_ItemType">
+            <summary>
+            数据访问类DAT_ItemType 
+            </summary>
+        </member>
+        <member name="T:CMS.DALayer.DACMS_DishServer">
+            <summary>
+            数据访问类DACMS_DishServer 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_DishServer.UpdateDishServer(System.String,System.String,System.String,System.String)">
+            <summary>
+            根据字段和相应的值更新数据信息
+            </summary>
+            <param name="paramWhereField">条件字段名称</param>
+            <param name="paramWhereContent">条件字段值</param>
+            <param name="paramField">要更新的字段名称</param>
+            <param name="paramContent">要更新的字段值</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_DishServer.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_DishServer.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.DALayer.DACMS_DishServer.Update(CMS.Model.ModelCMS_DishServer)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_DishServer.Insert(CMS.Model.ModelCMS_DishServer)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DACMS_DishServer.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:CMS.DALayer.DACMS_DishServer.GetAllColumns">
+            <summary>
+            获得表中的所有字段
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_DishServer.GetOrder(System.String[],System.String)">
+            <summary>
+            超级模糊查询
+            </summary>
+            <param name="paramCondition">查询条件</param>
+            <returns></returns>
+        </member>
+        <member name="T:CMS.DALayer.DACMS_RetreatDishes">
+            <summary>
+            数据访问类DACMS_RetreatDishes 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_RetreatDishes.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-2-25
+        </member>
+        <member name="M:CMS.DALayer.DACMS_RetreatDishes.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-2-25
+        </member>
+        <member name="M:CMS.DALayer.DACMS_RetreatDishes.Update(CMS.Model.ModelCMS_RetreatDishes)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-2-25
+        </member>
+        <member name="M:CMS.DALayer.DACMS_RetreatDishes.Insert(CMS.Model.ModelCMS_RetreatDishes)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-2-25
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DACMS_RetreatDishes.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:CMS.DALayer.DACMS_RetreatDishes.ClearRetreatDishes">
+            <summary>
+            清空所有退菜记录
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_RetreatDishes.GetOrder(System.String,System.String)">
+            <summary>
+             查询(方法重载)按其他字段查询
+            </summary>
+            <param name="paramFileName"></param>
+            <param name="paramMarValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_RetreatDishes.GetOrder(System.DateTime,System.DateTime)">
+            <summary>
+             查询(方法重载)(专门按时间查询)
+            </summary>
+            <param name="paramDateStart"></param>
+            <param name="paramDateEnd"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CMS.DALayer.DACMS_PaymentsItem">
+            <summary>
+            数据访问类DACMS_PaymentsItem 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_PaymentsItem.Update(CMS.Model.ModelCMS_PaymentsItem)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人： 桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_PaymentsItem.Insert(CMS.Model.ModelCMS_PaymentsItem)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DACMS_PaymentsItem.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.DALayer.DACMS_ItemType">
+            <summary>
+            数据访问类DACMS_ItemType 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ItemType.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ItemType.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ItemType.Update(CMS.Model.ModelT_ItemType)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ItemType.Insert(CMS.Model.ModelT_ItemType)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DACMS_ItemType.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.DALayer.DACMS_Equipment">
+            <summary>
+            数据访问类DACMS_Equipment 
+            </summary>
+        </member>
+        <member name="T:CMS.DALayer.DACMS_Buffets">
+            <summary>
+            数据访问类DACMS_Buffets 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_Buffets.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_Buffets.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.DALayer.DACMS_Buffets.Update(CMS.Model.ModelCMS_Buffets)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_Buffets.Insert(CMS.Model.ModelCMS_Buffets)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DACMS_Buffets.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.DALayer.DACMS_Stock">
+            <summary>
+            数据访问类DACMS_Stock 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_Stock.UpdateStock(System.String,System.String,System.String)">
+            <summary>
+            根据字段和相应的值更新数据信息
+            </summary>
+            <param name="paramIDContent">条件字段值,字段为ID</param>
+            <param name="paramField">要更新的字段名称</param>
+            <param name="paramContent">要更新的字段值</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_Stock.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-23
+        </member>
+        <member name="M:CMS.DALayer.DACMS_Stock.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_Stock.Update(CMS.Model.ModelCMS_Stock)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_Stock.Insert(CMS.Model.ModelCMS_Stock)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-23
+            整理人：桂书丛
+            整理日期：2013-03-01
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DACMS_Stock.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:CMS.DALayer.DACMS_Stock.GetDateItems">
+            <summary>
+            Gets the date items.
+            </summary>
+            <returns></returns>
+            整理人：桂书丛
+            整理时间：2013-03-04
+        </member>
+        <member name="T:CMS.DALayer.DAT_Right_Module_Map">
+            <summary>
+            数据访问类DAT_Right_Module_Map 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DAT_Right_Module_Map.GetRightModule(System.String)">
+            <summary>
+            根据权限ID获得可访问的模块
+            </summary>
+            <param name="paramRightID">权限ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DAT_Right_Module_Map.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DAT_Right_Module_Map.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.DALayer.DAT_Right_Module_Map.Update(CMS.Model.ModelT_Right_Module_Map)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DAT_Right_Module_Map.Insert(CMS.Model.ModelT_Right_Module_Map)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DAT_Right_Module_Map.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.DALayer.DACMS_DPInfo">
+            <summary>
+            数据访问类DACMS_DPInfo 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_DPInfo.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_DPInfo.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_DPInfo.Update(CMS.Model.ModelCMS_DPInfo)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_DPInfo.Insert(CMS.Model.ModelCMS_DPInfo)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model">The model.</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DACMS_DPInfo.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.DALayer.DAT_SysLog">
+            <summary>
+            数据访问类DAT_SysLog 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DAT_SysLog.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DAT_SysLog.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.DALayer.DAT_SysLog.Update(CMS.Model.ModelT_SysLog)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DAT_SysLog.Insert(CMS.Model.ModelT_SysLog)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DAT_SysLog.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:CMS.DALayer.DAT_SysLog.ClearSysLog">
+            <summary>
+            清空所有日志记录
+            </summary>
+        </member>
+        <member name="T:CMS.DALayer.DACMS_Performance">
+            <summary>
+            数据访问类DACMS_Performance 
+            </summary>
+        </member>
+        <member name="T:CMS.DALayer.DAT_Moudle">
+            <summary>
+            数据访问类DAT_Moudle 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DAT_Moudle.GetUserModule(System.String)">
+            <summary>
+            根据用户权限ID获得用户可访问的模块
+            </summary>
+            <param name="paramUserRightID">用户权限ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DAT_Moudle.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DAT_Moudle.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.DALayer.DAT_Moudle.Update(CMS.Model.ModelT_Module)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DAT_Moudle.Insert(CMS.Model.ModelT_Module)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DAT_Moudle.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.DALayer.DACMS_ReturnGoods">
+            <summary>
+            数据访问类DACMS_ReturnGoods 
+            </summary>
+        </member>
+        <member name="T:CMS.DALayer.DACMS_ConsumptionDish">
+            <summary>
+            数据访问类DACMS_ConsumptionDish 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ConsumptionDish.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ConsumptionDish.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ConsumptionDish.Update(CMS.Model.ModelCMS_ConsumptionDish)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ConsumptionDish.Insert(CMS.Model.ModelCMS_ConsumptionDish)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DACMS_ConsumptionDish.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.DALayer.DAT_Right">
+            <summary>
+            数据访问类DAT_Right 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DAT_Right.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DAT_Right.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.DALayer.DAT_Right.Update(CMS.Model.ModelT_Right)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DAT_Right.Insert(CMS.Model.ModelT_Right)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DAT_Right.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.DALayer.DACMS_PaymentsDetail">
+            <summary>
+            数据访问类DACMS_PaymentsDetail 
+            </summary>
+        </member>
+        <member name="T:CMS.DALayer.DAT_ItemDetail">
+            <summary>
+            数据访问类DAT_ItemDetail 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DAT_ItemDetail.GetItemByType(System.String)">
+            <summary>
+            根据项目类型获得对应项目信息
+            </summary>
+            <param name="paramItemType">项目类型</param>
+            <returns></returns>
+        </member>
+        <member name="T:CMS.DALayer.DACMS_VIPClient">
+            <summary>
+            数据访问类DACMS_VIPClient 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_VIPClient.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            <remarks></remarks>
+            
+        </member>
+        <member name="M:CMS.DALayer.DACMS_VIPClient.GetOrderVIPClient(System.Boolean,System.String,System.String)">
+            <summary>
+            这个方法专门查询客户/会员信息。因为这两个信息在一张表中
+            </summary>
+            <param name="IsClient"></param>
+            <param name="paramField"></param>
+            <param name="paramContent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_VIPClient.VIPSearch(System.Boolean,System.String,System.String)">
+            <summary>
+            专门查询会员信息(要用的连表查询，Sql语句不一样)(按其他条件或全部查询)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_VIPClient.VIPSearch(System.Boolean,System.DateTime,System.DateTime)">
+            <summary>
+            专门查询会员信息(要用的连表查询，Sql语句不一样)按时间条件
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:CMS.DALayer.DACMS_VIPClient.GetOnlyOne(System.String)">
+            <summary>
+            获取一列
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_VIPClient.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_VIPClient.GetOrderVIPClientOnDate(System.Boolean,System.String,System.DateTime,System.DateTime)">
+             <summary>
+            用来按时间条件查询会员/客户信息
+             </summary>
+             <param name="IsClient"></param>
+             <param name="paramStart"></param>
+             <param name="paramEnd"></param>
+             <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_VIPClient.Update(CMS.Model.ModelCMS_VIPClient)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_VIPClient.Update(CMS.Model.ModelCMS_VIPClient,System.String)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_VIPClient.Insert(CMS.Model.ModelCMS_VIPClient)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model">The model.</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DACMS_VIPClient.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.DALayer.DACMS_RoomType">
+            <summary>
+            数据访问类DACMS_RoomType 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_RoomType.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_RoomType.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_RoomType.Update(CMS.Model.ModelCMS_RoomType)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_RoomType.Insert(CMS.Model.ModelCMS_RoomType)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DACMS_RoomType.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.DALayer.DACMS_ItemDetail">
+            <summary>
+            数据访问类DACMS_ItemDetail 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ItemDetail.GetItemByType(System.String)">
+            <summary>
+            根据项目类型获得对应项目信息
+            </summary>
+            <param name="paramItemType">项目类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ItemDetail.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ItemDetail.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ItemDetail.Update(CMS.Model.ModelCMS_ItemDetail)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人： 桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ItemDetail.Insert(CMS.Model.ModelCMS_ItemDetail)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DACMS_ItemDetail.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:CMS.DALayer.DACMS_ItemDetail.GetDishType(System.Int32)">
+            <summary>
+            grictrlDishType数据绑定
+            </summary>
+            <param name="paramID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ItemDetail.GetQuitReason(System.Int32)">
+            <summary>
+            grictrlQuitReason数据绑定
+            </summary>
+            <param name="paramID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ItemDetail.GetDishTaste(System.Int32)">
+            <summary>
+            grictrlDishTaste数据绑定
+            </summary>
+            <param name="paramID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ItemDetail.GetBuffState(System.Int32)">
+            <summary>
+            grictrlBuffState数据绑定
+            </summary>
+            <param name="paramID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ItemDetail.GetOtherInstall(System.Int32)">
+            <summary>
+            grictrlOtherInstall数据绑定
+            </summary>
+            <param name="paramID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ItemDetail.RAddDishType(System.String,System.String)">
+            <summary>
+            添加菜品类别
+            </summary>
+            <param name="paramtxtDishTypeNum"></param>
+            <param name="paramtxtDishType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ItemDetail.RGetDishTaste(System.String,System.String)">
+            <summary>
+            添加菜品口味
+            </summary>
+            <param name="paramDishTasteNum"></param>
+            <param name="paramDishTaste"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ItemDetail.RGetQuitReason(System.String,System.String)">
+            <summary>
+            添加退菜原因
+            </summary>
+            <param name="paramQuitReasonNum"></param>
+            <param name="paramQuitReason"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ItemDetail.RGetBuffState(System.String,System.String)">
+            <summary>
+            添加餐台状态
+            </summary>
+            <param name="paramBuffStateNum"></param>
+            <param name="paramBuffState"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_ItemDetail.RGetOtherInstall(System.String,System.String)">
+            <summary>
+            添加其他设置
+            </summary>
+            <param name="paramOtherInstallNum"></param>
+            <param name="paramOtherInstall"></param>
+            <returns></returns>
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DACMS_ItemDetail.RDeleDishType(System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:CMS.DALayer.DACMS_ItemDetail.RDeleDishTaste(System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:CMS.DALayer.DACMS_ItemDetail.RDeleQuitReason(System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:CMS.DALayer.DACMS_ItemDetail.RDeleBuffState(System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:CMS.DALayer.DACMS_ItemDetail.RDeleOtherInstall(System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:CMS.DALayer.DACMS_ItemDetail.RAlterDishType(System.String,System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:CMS.DALayer.DACMS_ItemDetail.RAlterDishTaste(System.String,System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:CMS.DALayer.DACMS_ItemDetail.RAlterQuitReason(System.String,System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:CMS.DALayer.DACMS_ItemDetail.RAlterBuffState(System.String,System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:CMS.DALayer.DACMS_ItemDetail.RAlterOtherInstall(System.String,System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.DALayer.DACMS_InGoods">
+            <summary>
+            数据访问类DACMS_InGoods 
+            </summary>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_InGoods.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_InGoods.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_InGoods.Update(CMS.Model.ModelCMS_InGoods)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.DALayer.DACMS_InGoods.Insert(CMS.Model.ModelCMS_InGoods)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <!-- 对于成员“M:CMS.DALayer.DACMS_InGoods.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.DALayer.DACMS_BorrowGoods">
+            <summary>
+            数据访问类DACMS_BorrowGoods 
+            </summary>
+        </member>
+    </members>
+</doc>

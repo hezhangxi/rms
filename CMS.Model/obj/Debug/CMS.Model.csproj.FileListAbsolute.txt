@@ -1,0 +1,178 @@
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.Model\bin\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.Model\bin\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.Model\obj\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.Model\obj\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.Model\bin\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.Model\bin\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.Model\obj\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.Model\obj\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.Model\bin\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.Model\bin\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.Model\obj\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.Model\obj\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.Model\bin\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.Model\bin\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.Model\obj\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.Model\obj\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.Model\obj\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.Model\obj\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.Model\bin\Debug\CMS.Entity.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.Model\bin\Debug\CMS.Entity.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.229\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.229\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.229\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.229\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.229\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3312\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3312\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3312\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3312\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3312\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.Model\bin\Debug\CMS.Model.XML
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3312\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.Model\bin\Debug\CMS.Model.XML
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3315\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.Model\bin\Debug\CMS.Model.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3315\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3334\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.Model\bin\Debug\CMS.Model.XML
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\复件 CMS 1.0.3335\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.Model\bin\Debug\CMS.Model.XML
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\复件1 CMS 1.0.3335\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.Model\bin\Debug\CMS.Model.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3342\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.Model\bin\Debug\CMS.Model.XML
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3442\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3562\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.Model\bin\Debug\CMS.Model.XML
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS\复件 CMS 1.0.3566\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.Model\bin\Debug\CMS.Model.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3572\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.Model\bin\Debug\CMS.Model.XML
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3573\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.Model\bin\Debug\CMS.Model.XML
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS 1.0.3603\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.Model\bin\Debug\CMS.Model.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3625\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.Model\bin\Debug\CMS.Model.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3635\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.Model\bin\Debug\CMS.Model.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3637\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.Model\obj\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3642\CMS.Model\bin\Debug\CMS.Model.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.Model\bin\Debug\CMS.Model.XML
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.Model\bin\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.Model\bin\Debug\CMS.Model.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.Model\obj\Debug\CMS.Model.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3672\CMS.Model\obj\Debug\CMS.Model.pdb
+G:\2013\CMS 1.0.3675\CMS.Model\bin\Debug\CMS.Model.dll
+G:\2013\CMS 1.0.3675\CMS.Model\bin\Debug\CMS.Model.pdb
+G:\2013\CMS 1.0.3675\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+G:\2013\CMS 1.0.3675\CMS.Model\obj\Debug\CMS.Model.dll
+G:\2013\CMS 1.0.3675\CMS.Model\obj\Debug\CMS.Model.pdb
+G:\2013\CMS 1.0.3675\CMS.Model\bin\Debug\CMS.Model.XML
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.Model\bin\Debug\CMS.Model.dll
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.Model\bin\Debug\CMS.Model.pdb
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.Model\obj\Debug\ResolveAssemblyReference.cache
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.Model\obj\Debug\CMS.Model.dll
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.Model\obj\Debug\CMS.Model.pdb
+G:\2013\2013-04-12下午修改\4 源码\CMS 1.0.3675\CMS.Model\bin\Debug\CMS.Model.XML

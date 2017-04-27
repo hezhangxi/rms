@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{93877F35-F29C-40C1-BD7F-71A504653F36}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CMS.BULayer</RootNamespace>
+    <AssemblyName>CMS.BULayer</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\CMS.BULayer.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BUCMS_BorrowGoods.cs" />
+    <Compile Include="BUCMS_BuffetBooking.cs" />
+    <Compile Include="BUCMS_Consumption.cs" />
+    <Compile Include="BUCMS_DPInfo.cs" />
+    <Compile Include="BUCMS_Equipment.cs" />
+    <Compile Include="BUCMS_InGoods.cs" />
+    <Compile Include="BUCMS_ItemType.cs" />
+    <Compile Include="BUCMS_ConsumptionDish.cs" />
+    <Compile Include="BUCMS_PaymentsDetail.cs" />
+    <Compile Include="BUCMS_PaymentsItem.cs" />
+    <Compile Include="BUCMS_Performance.cs" />
+    <Compile Include="BUCMS_RetreatDishes.cs" />
+    <Compile Include="BUCMS_ReturnGoods.cs" />
+    <Compile Include="BUCMS_Stock.cs" />
+    <Compile Include="BUCMS_VIPClient.cs" />
+    <Compile Include="BUCMS_VIPType.cs" />
+    <Compile Include="BUT_ItemType.cs" />
+    <Compile Include="BUT_Right_Module_Map.cs" />
+    <Compile Include="IBULayer.cs" />
+    <Compile Include="VariedDefault.cs" />
+    <Compile Include="VariedItemType.cs" />
+    <Compile Include="BUCMS_Buffets.cs" />
+    <Compile Include="BUCMS_ItemDetail.cs" />
+    <Compile Include="BUCMS_ConsumptionReg.cs" />
+    <Compile Include="BUCMS_DishServer.cs" />
+    <Compile Include="BUCMS_Employee.cs" />
+    <Compile Include="BUT_Module.cs" />
+    <Compile Include="BUT_Right.cs" />
+    <Compile Include="BUCMS_RoomType.cs" />
+    <Compile Include="BUT_SysLog.cs" />
+    <Compile Include="BUT_ItemDetail.cs" />
+    <Compile Include="BUT_User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VariedEnum.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CMS.DALayer\CMS.DALayer.csproj">
+      <Project>{2186D89A-E443-46B8-BA63-7194AF3AAD62}</Project>
+      <Name>CMS.DALayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMS.Model\CMS.Model.csproj">
+      <Project>{91B202FC-C4CD-4389-8784-3B676CB799B9}</Project>
+      <Name>CMS.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{A849CB6C-940F-4EDE-B62A-FC895BE36E1D}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

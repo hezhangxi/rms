@@ -1,0 +1,1346 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CMS.Model</name>
+    </assembly>
+    <members>
+        <member name="T:CMS.Model.ModelCMS_VIPType">
+            <summary>
+            实体类ModelCMS_VIPType 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <!-- 对于成员“M:CMS.Model.ModelCMS_VIPType.#ctor”忽略有格式错误的 XML 注释 -->
+        <member name="P:CMS.Model.ModelCMS_VIPType.ID">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPType.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPType.Discount">
+            <summary>
+            会员优惠
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPType.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPType.CreatePerson">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPType.CreateDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_VIPType.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelCMS_VIPType.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelCMS_RoomType">
+            <summary>
+            实体类ModelCMS_RoomType 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_RoomType.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_RoomType.Name">
+            <summary>
+            包厢名称
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_RoomType.FloorID">
+            <summary>
+            所在楼层
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_RoomType.EquipmentID">
+            <summary>
+            设备编号
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_RoomType.Description">
+            <summary>
+            包厢描述
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_RoomType.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_RoomType.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_RoomType.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelCMS_RoomType.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelCMS_ConsumptionReg">
+            <summary>
+            实体类ModelCMS_ConsumptionReg 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionReg.ID">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionReg.CustomerNum">
+            <summary>
+            ?来宾数量
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionReg.BuffetsID">
+            <summary>
+            桌台编号
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionReg.EmployeeID">
+            <summary>
+            服务员工ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionReg.TypeID">
+            <summary>
+            消费方式
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionReg.IsPaied">
+            <summary>
+            是否付账
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionReg.TotalAmount">
+            <summary>
+            消费总金额
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionReg.PayTypeID">
+            <summary>
+            支付方式
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionReg.MarkID">
+            <summary>
+            标识ID（用于联系注册登记表和点菜表）
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionReg.IsVIP">
+            <summary>
+            是否是VIP消费
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionReg.VIPID">
+            <summary>
+            VIP编号
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionReg.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionReg.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionReg.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_ConsumptionReg.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelCMS_ConsumptionReg.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelT_Right">
+            <summary>
+            实体类ModelT_Right 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_Right.ID">
+            <summary>
+            权限类型ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_Right.Name">
+            <summary>
+            权限名称
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_Right.Description">
+            <summary>
+            权限描述
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_Right.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_Right.CreateDate">
+            <summary>
+            创建日期
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_Right.ModifyPerson">
+            <summary>
+            
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelT_Right.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelCMS_DishServer">
+            <summary>
+            实体类ModelCMS_DishServer 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_DishServer.ID">
+            <summary>
+            菜品ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_DishServer.Name">
+            <summary>
+            菜名
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_DishServer.MnemonicSymbol">
+            <summary>
+            助记符
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_DishServer.DishTypeID">
+            <summary>
+            菜品类别编号
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_DishServer.Cost">
+            <summary>
+            菜品成本
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_DishServer.MeasuringUnit">
+            <summary>
+            计量单位
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_DishServer.Price">
+            <summary>
+            菜品价格
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_DishServer.Commission">
+            <summary>
+            提成
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_DishServer.StockGoodsID">
+            <summary>
+            当前可用数量
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_DishServer.InfoNote">
+            <summary>
+            信息备注
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_DishServer.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_DishServer.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_DishServer.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelCMS_DishServer.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelCMS_Buffets">
+            <summary>
+            实体类ModelCMS_Buffets 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Buffets.ID">
+            <summary>
+            餐台ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Buffets.Name">
+            <summary>
+            餐台名称
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Buffets.AccommodateNum">
+            <summary>
+            可容纳人数
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Buffets.RoomTypeID">
+            <summary>
+            可容纳人数
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Buffets.StateID">
+            <summary>
+            餐台状态
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Buffets.MarkID">
+            <summary>
+            账单编号
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Buffets.InfoNote">
+            <summary>
+            餐台信息备注
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Buffets.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Buffets.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_Buffets.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelCMS_Buffets.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelT_Right_Module_Map">
+            <summary>
+            实体类ModelT_Right_Module_Map 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_Right_Module_Map.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_Right_Module_Map.RightID">
+            <summary>
+            权限ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_Right_Module_Map.ModuleID">
+            <summary>
+            模块ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_Right_Module_Map.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_Right_Module_Map.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelT_Right_Module_Map.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelT_Right_Module_Map.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelCMS_Employee">
+            <summary>
+            实体类ModelCMS_Employee 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Employee.ID">
+            <summary>
+            员工编号
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Employee.Name">
+            <summary>
+            员工姓名
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Employee.Sex">
+            <summary>
+            员工性别
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Employee.Age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Employee.Degree">
+            <summary>
+            学历
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Employee.BirthDate">
+            <summary>
+            出生日期
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Employee.PosID">
+            <summary>
+            员工职位ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Employee.EntryDate">
+            <summary>
+            入职时间
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Employee.StateID">
+            <summary>
+            员工工作状态ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Employee.Photo">
+            <summary>
+            员工照片
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Employee.TelPhone">
+            <summary>
+            电话号码
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Employee.IDCardNum">
+            <summary>
+            身份证号码
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Employee.Address">
+            <summary>
+            家庭住址
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Employee.InfoNote">
+            <summary>
+            员工信息备注
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Employee.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Employee.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_Employee.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <member name="P:CMS.Model.ModelCMS_Employee.ModifyDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CMS.Model.ModelCMS_BuffetBooking">
+            <summary>
+            实体类ModelCMS_BuffetBooking 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_BuffetBooking.ID">
+            <summary>
+            预定餐台ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_BuffetBooking.BuffetsID">
+            <summary>
+            要预定的餐台
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_BuffetBooking.CName">
+            <summary>
+            预定人姓名
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_BuffetBooking.CTelPhone">
+            <summary>
+            预定人电话
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_BuffetBooking.Transactor">
+            <summary>
+            办理人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_BuffetBooking.CNum">
+            <summary>
+            宾客人数
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_BuffetBooking.BooKDate">
+            <summary>
+            预定时间
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_BuffetBooking.OverduTtime">
+            <summary>
+            失效时间
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_BuffetBooking.InfoNote">
+            <summary>
+            信息备注
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_BuffetBooking.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelCMS_BuffetBooking.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelCMS_BorrowGoods">
+            <summary>
+            实体类ModelCMS_BorrowGoods 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_BorrowGoods.ID">
+            <summary>
+            借出商品ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_BorrowGoods.StockGoodsID">
+            <summary>
+            库存商品ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_BorrowGoods.Number">
+            <summary>
+            借出商品的数量
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_BorrowGoods.BorrowTime">
+            <summary>
+            借出商品的时间
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_BorrowGoods.InfoNote">
+            <summary>
+            借出备注
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_BorrowGoods.HandlesPeopleID">
+            <summary>
+            经受人ID
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_BorrowGoods.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelCMS_BorrowGoods.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelT_User">
+            <summary>
+            实体类ModelT_User 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_User.ID">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_User.UserName">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_User.UserPWD">
+            <summary>
+            用户密码
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_User.UserRightID">
+            <summary>
+            用户角色类型
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_User.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_User.CreateDate">
+            <summary>
+            创建日期
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelT_User.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelT_User.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="P:CMS.Model.ModelT_User.InfoNote">
+            <summary>
+            信息备注
+            </summary>
+        </member>
+        <member name="T:CMS.Model.ModelCMS_Consumption">
+            <summary>
+            实体类ModelCMS_Consumption 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Consumption.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Consumption.StockGoodsID">
+            <summary>
+            库存商品ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Consumption.Number">
+            <summary>
+            出库商品数量
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Consumption.OutDate">
+            <summary>
+            出库时间
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Consumption.InfoNote">
+            <summary>
+            出库商品备注
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Consumption.HandlesPeopleID">
+            <summary>
+            经手人姓名
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_Consumption.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelCMS_Consumption.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelT_SysLog">
+            <summary>
+            实体类ModelT_SysLog 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_SysLog.ID">
+            <summary>
+            日志ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_SysLog.LogType">
+            <summary>
+            日志类型
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_SysLog.OperatorID">
+            <summary>
+            操作员ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_SysLog.Description">
+            <summary>
+            操作详细描述
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_SysLog.RecordDate">
+            <summary>
+            记录时间
+            </summary>
+        </member>
+        <member name="T:CMS.Model.ModelCMS_VIPClient">
+            <summary>
+            实体类ModelCMS_VIPClient 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPClient.ID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPClient.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPClient.Sex">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPClient.TelPhone">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPClient.VIPTypeID">
+            <summary>
+            VIP卡类型
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPClient.Position">
+            <summary>
+            职位
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPClient.DepName">
+            <summary>
+            单位名称
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPClient.Address">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPClient.IsClient">
+            <summary>
+            是否为客户
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPClient.VIPCost">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPClient.InfoNote">
+            <summary>
+            信息备注
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPClient.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPClient.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPClient.RechargeDate">
+            <summary>
+            最后充值时间
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPClient.ModifyPerson">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_VIPClient.ModifyDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CMS.Model.ModelCMS_RetreatDishes">
+            <summary>
+            实体类ModelCMS_RetreatDishes 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_RetreatDishes.ID">
+            <summary>
+            退菜记录ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_RetreatDishes.DishID">
+            <summary>
+            所退菜品ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_RetreatDishes.DishNum">
+            <summary>
+            退菜数量
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_RetreatDishes.CauseID">
+            <summary>
+            退菜原因编号
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_RetreatDishes.InfoNote">
+            <summary>
+            信息备注
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_RetreatDishes.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_RetreatDishes.RetreatDate">
+            <summary>
+            退菜时间
+            </summary>
+        </member>
+        <member name="T:CMS.Model.ModelCMS_ItemType">
+            <summary>
+            实体类ModelCMS_ItemType 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ItemType.ID">
+            <summary>
+            项目类型ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ItemType.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ItemType.Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ItemType.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ItemType.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_ItemType.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelCMS_ItemType.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelCMS_PaymentsDetail">
+            <summary>
+            实体类ModelCMS_PaymentsDetail 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_PaymentsDetail.ID">
+            <summary>
+            收支明细ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_PaymentsDetail.PaymentTypeID">
+            <summary>
+            收支类型ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_PaymentsDetail.Amount">
+            <summary>
+            金额
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_PaymentsDetail.HandlesPeopleID">
+            <summary>
+            经手人ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_PaymentsDetail.InfoNote">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_PaymentsDetail.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_PaymentsDetail.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_PaymentsDetail.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelCMS_PaymentsDetail.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelT_ItemType">
+            <summary>
+            实体类ModelT_ItemType 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_ItemType.ID">
+            <summary>
+            项目类型ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_ItemType.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_ItemType.Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_ItemType.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_ItemType.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelT_ItemType.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelT_ItemType.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelCMS_PaymentsItem">
+            <summary>
+            实体类ModelCMS_PaymentsItem 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_PaymentsItem.ID">
+            <summary>
+            收支ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_PaymentsItem.Type">
+            <summary>
+            收支类型
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_PaymentsItem.Name">
+            <summary>
+            类型名称
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_PaymentsItem.Description">
+            <summary>
+            详细描述
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_PaymentsItem.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_PaymentsItem.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_PaymentsItem.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelCMS_PaymentsItem.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelT_Module">
+            <summary>
+            实体类ModelT_Module 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_Module.ID">
+            <summary>
+            模块ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_Module.FullName">
+            <summary>
+            模块名称
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_Module.Href">
+            <summary>
+            模块超链接（资源路径）
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_Module.ParentID">
+            <summary>
+            此模块父级菜单的ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_Module.Description">
+            <summary>
+            模块说明
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_Module.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_Module.CreateDate">
+            <summary>
+            创建日期
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelT_Module.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelT_Module.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelCMS_Performance">
+            <summary>
+            实体类ModelCMS_Performance 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Performance.ID">
+            <summary>
+            业绩ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Performance.EmployeeID">
+            <summary>
+            业绩所属员工编号
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Performance.TypeID">
+            <summary>
+            业绩类型ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Performance.Description">
+            <summary>
+            业绩描述
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Performance.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Performance.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_Performance.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelCMS_Performance.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelCMS_InGoods">
+            <summary>
+            实体类ModelCMS_InGoods 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_InGoods.ID">
+            <summary>
+            商品ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_InGoods.Name">
+            <summary>
+            商品名称
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_InGoods.Specifications">
+            <summary>
+            商品规格
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_InGoods.Total">
+            <summary>
+            商品总价
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_InGoods.Number">
+            <summary>
+            入库数量
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_InGoods.Price">
+            <summary>
+            商品入库单价
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_InGoods.Supplier">
+            <summary>
+            供应商
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_InGoods.HandlesPeopleID">
+            <summary>
+            接收人ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_InGoods.InDate">
+            <summary>
+            入库时间
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_InGoods.InfoNote">
+            <summary>
+            入库备注
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_InGoods.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelCMS_InGoods.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelCMS_Equipment">
+            <summary>
+            实体类ModelCMS_Equipment 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Equipment.ID">
+            <summary>
+            包厢设备ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Equipment.Condition">
+            <summary>
+            是否有空调
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Equipment.Fan">
+            <summary>
+            是否有风扇
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Equipment.TV">
+            <summary>
+            是否有彩电
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Equipment.DVD">
+            <summary>
+            是否有DVD
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Equipment.Other">
+            <summary>
+            其他备注设备
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Equipment.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Equipment.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_Equipment.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelCMS_Equipment.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelCMS_DPInfo">
+            <summary>
+            实体类ModelCMS_DPInfo 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_DPInfo.ID">
+            <summary>
+            部门（职位）ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_DPInfo.Name">
+            <summary>
+            部门（职位）名称
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_DPInfo.SubID">
+            <summary>
+            上级部门ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_DPInfo.Description">
+            <summary>
+            部门（职位）描述
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_DPInfo.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_DPInfo.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_DPInfo.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <member name="P:CMS.Model.ModelCMS_DPInfo.ModifyDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CMS.Model.ModelCMS_ConsumptionDish">
+            <summary>
+            实体类ModelCMS_ConsumptionDish 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionDish.ID">
+            <summary>
+            点菜的ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionDish.MarkID">
+            <summary>
+            标识
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionDish.DiskID">
+            <summary>
+            菜品ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionDish.DiskNum">
+            <summary>
+            菜品数量
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionDish.IsPresent">
+            <summary>
+            是否是赠菜
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionDish.TasteID">
+            <summary>
+            口味编号
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionDish.Description">
+            <summary>
+            点菜描述
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionDish.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ConsumptionDish.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_ConsumptionDish.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelCMS_ConsumptionDish.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelCMS_Stock">
+            <summary>
+            实体类ModelCMS_Stock 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Stock.ID">
+            <summary>
+            库存商品编号
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Stock.Name">
+            <summary>
+            商品名称
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Stock.Supplier">
+            <summary>
+            供应商
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Stock.Specifications">
+            <summary>
+            商品规格
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Stock.Price">
+            <summary>
+            商品单价
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Stock.Total">
+            <summary>
+            商品总价
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Stock.Number">
+            <summary>
+            商品的数量
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Stock.InfoNote">
+            <summary>
+            商品信息备注
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_Stock.HandlesPeopleID">
+            <summary>
+            接收人ID
+            </summary>
+        </member>
+        <member name="T:CMS.Model.ModelCMS_ItemDetail">
+            <summary>
+            实体类ModelCMS_ItemDetail 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ItemDetail.ID">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ItemDetail.TypeID">
+            <summary>
+            类型ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ItemDetail.Name">
+            <summary>
+            类别名称
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ItemDetail.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ItemDetail.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ItemDetail.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_ItemDetail.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelCMS_ItemDetail.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelT_ItemDetail">
+            <summary>
+            实体类ModelT_ItemDetail 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_ItemDetail.ID">
+            <summary>
+            类型ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_ItemDetail.TypeID">
+            <summary>
+            类型ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_ItemDetail.Name">
+            <summary>
+            类型名称
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_ItemDetail.InfoNote">
+            <summary>
+            信息备注
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_ItemDetail.CreatePerson">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelT_ItemDetail.CreateDate">
+            <summary>
+            创建日期
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelT_ItemDetail.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelT_ItemDetail.ModifyDate”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.Model.ModelCMS_ReturnGoods">
+            <summary>
+            实体类ModelCMS_ReturnGoods 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ReturnGoods.ID">
+            <summary>
+            借出商品ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ReturnGoods.GoodsBorrowID">
+            <summary>
+            借出商品ID
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ReturnGoods.Number">
+            <summary>
+            归还商品数量
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ReturnGoods.ReturnTime">
+            <summary>
+            归还商品的时间
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ReturnGoods.InfoNote">
+            <summary>
+            信息备注
+            </summary>
+        </member>
+        <member name="P:CMS.Model.ModelCMS_ReturnGoods.HandlesPeopleID">
+            <summary>
+            经手人ID
+            </summary>
+        </member>
+        <!-- 对于成员“P:CMS.Model.ModelCMS_ReturnGoods.ModifyPerson”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“P:CMS.Model.ModelCMS_ReturnGoods.ModifyDate”忽略有格式错误的 XML 注释 -->
+    </members>
+</doc>

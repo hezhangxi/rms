@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CommonLayer</name>
+    </assembly>
+    <members>
+        <member name="T:CMS.CommonLayer.CheckString">
+            <summary>
+            判断字符串类型的类
+            </summary>
+        </member>
+        <member name="M:CMS.CommonLayer.CheckString.IsNum(System.String)">
+            <summary>
+            判断字符串是否为纯数字字符串
+            </summary>
+            <param name="paramString">需判断的字符串</param>
+            <returns>true:是纯数字字符串;false:不是纯数字字符串</returns>
+        </member>
+        <member name="M:CMS.CommonLayer.CheckString.IsChinese(System.String)">
+            <summary>
+            判断字符串是否为纯汉字
+            </summary>
+            <param name="paramString">>需判断的字符串</param>
+            <returns>true:是中文字符串;false:不是中文字符串</returns>
+        </member>
+        <member name="M:CMS.CommonLayer.CheckString.ContanctChinese(System.String)">
+            <summary>
+            判断字符串中是否包含汉字
+            </summary>
+            <param name="paramString">需判断的字符串</param>
+            <returns>true:包含汉字|false:不包含汉字</returns>
+        </member>
+        <member name="M:CMS.CommonLayer.GetChineseSpell.GetFirstPYLetter(System.String)">
+            <summary> 
+            将汉字转换成拼音(首字母)，不是汉字则原样输出 
+            </summary> 
+            <param name="ChineseStr">汉字字符串</param> 
+            <returns>转换后的拼音(首字母)字符串</returns> 
+        </member>
+        <member name="M:CMS.CommonLayer.GetChineseSpell.GetAllPYLetters(System.String)">
+            <summary> 
+            把汉字转换成拼音(全拼),不是汉字则原样输出 
+            </summary> 
+            <param name="ChineseStr">汉字字符串</param> 
+            <returns>转换后的拼音(全拼)字符串</returns> 
+        </member>
+        <member name="M:CMS.CommonLayer.Encryption.MD5Encrypt(System.String)">
+            <summary>
+            MD5 加密静态方法
+            </summary>
+            <param name="EncryptString">待加密的密文</param>
+            <returns>returns</returns>
+        </member>
+        <member name="M:CMS.CommonLayer.Encryption.DESEncrypt(System.String,System.String)">
+            <summary>
+            DES 加密(数据加密标准，速度较快，适用于加密大量数据的场合)
+            </summary>
+            <param name="EncryptString">待加密的密文</param>
+            <param name="EncryptKey">加密的密钥</param>
+            <returns>returns</returns>
+        </member>
+        <member name="M:CMS.CommonLayer.Encryption.DESDecrypt(System.String,System.String)">
+            <summary>
+            DES 解密(数据加密标准，速度较快，适用于加密大量数据的场合)
+            </summary>
+            <param name="DecryptString">待解密的密文</param>
+            <param name="DecryptKey">解密的密钥</param>
+            <returns>returns</returns>
+        </member>
+        <member name="M:CMS.CommonLayer.Encryption.RC2Encrypt(System.String,System.String)">
+            <summary>
+            RC2 加密(用变长密钥对大量数据进行加密)
+            </summary>
+            <param name="EncryptString">待加密密文</param>
+            <param name="EncryptKey">加密密钥</param>
+            <returns>returns</returns>
+        </member>
+        <member name="M:CMS.CommonLayer.Encryption.RC2Decrypt(System.String,System.String)">
+            <summary>
+            RC2 解密(用变长密钥对大量数据进行加密)
+            </summary>
+            <param name="DecryptString">待解密密文</param>
+            <param name="DecryptKey">解密密钥</param>
+            <returns>returns</returns>
+        </member>
+        <member name="M:CMS.CommonLayer.Encryption.DES3Encrypt(System.String,System.String,System.String,System.String)">
+            <summary>
+            3DES 加密(基于DES，对一块数据用三个不同的密钥进行三次加密，强度更高)
+            </summary>
+            <param name="EncryptString">待加密密文</param>
+            <param name="EncryptKey1">密钥一</param>
+            <param name="EncryptKey2">密钥二</param>
+            <param name="EncryptKey3">密钥三</param>
+            <returns>returns</returns>
+        </member>
+        <member name="M:CMS.CommonLayer.Encryption.DES3Decrypt(System.String,System.String,System.String,System.String)">
+            <summary>
+            3DES 解密(基于DES，对一块数据用三个不同的密钥进行三次加密，强度更高)
+            </summary>
+            <param name="DecryptString">待解密密文</param>
+            <param name="DecryptKey1">密钥一</param>
+            <param name="DecryptKey2">密钥二</param>
+            <param name="DecryptKey3">密钥三</param>
+            <returns>returns</returns>
+        </member>
+        <member name="M:CMS.CommonLayer.Encryption.AESEncrypt(System.String,System.String)">
+            <summary>
+            AES 加密(高级加密标准，是下一代的加密算法标准，速度快，安全级别高，目前 AES 标准的一个实现是 Rijndael 算法)
+            </summary>
+            <param name="EncryptString">待加密密文</param>
+            <param name="EncryptKey">加密密钥</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.CommonLayer.Encryption.AESDecrypt(System.String,System.String)">
+            <summary>
+            AES 解密(高级加密标准，是下一代的加密算法标准，速度快，安全级别高，目前 AES 标准的一个实现是 Rijndael 算法)
+            </summary>
+            <param name="DecryptString">待解密密文</param>
+            <param name="DecryptKey">解密密钥</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.CommonLayer.DistinctDataTable.GetDistinctTable(System.Data.DataTable,System.String)">
+            <summary>  
+            获取对固定列不重复的新DataTable  
+            </summary>  
+            <param name="dt">含有重复数据的DataTable</param>  
+            <param name="colName">需要验证重复的列名</param>  
+            <returns>新的DataTable，colName列不重复，表格式保持不变</returns>  
+        </member>
+        <member name="T:CMS.CommonLayer.SysHotKey">
+            <summary>
+            注册定义窗口热键
+            </summary>
+        </member>
+        <member name="M:CMS.CommonLayer.SysHotKey.RegisterHotKey(System.IntPtr,System.Int32,CMS.CommonLayer.SysHotKey.KeyModifiers,System.Windows.Forms.Keys)">
+            <summary>
+            注册热键(快捷键)
+            </summary>
+            <param name="hWnd">要定义热键的窗口的句柄</param>
+            <param name="HotKeyID">定义热键ID(不能有重复的ID)</param>
+            <param name="IsModifiers">标识热键需配合功能键时才会生效(Alt、Ctrl、Shift、Win键或None)</param>
+            <param name="Key">定义热键为键盘的按键</param>
+            <returns>true:注册热键成功;false:注册热键失败</returns>
+        </member>
+        <member name="M:CMS.CommonLayer.SysHotKey.UnregisterHotKey(System.IntPtr,System.Int32)">
+            <summary>
+            销毁热键
+            </summary>
+            <param name="hWnd">要销毁热键的窗口的句柄</param>
+            <param name="HotKeyID">要销毁热键的ID号(注册时定义的)</param>
+            <returns>true:销毁热键成功;false:销毁热键失败</returns>
+        </member>
+        <member name="T:CMS.CommonLayer.SysHotKey.KeyModifiers">
+            <summary>
+            定义组合键
+            </summary>
+        </member>
+    </members>
+</doc>

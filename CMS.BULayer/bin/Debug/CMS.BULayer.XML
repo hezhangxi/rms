@@ -1,0 +1,1651 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CMS.BULayer</name>
+    </assembly>
+    <members>
+        <member name="T:CMS.BULayer.BUT_SysLog">
+            <summary>
+            业务逻辑类BUT_Right_Module_Map   
+            </summary>
+        </member>
+        <member name="T:CMS.BULayer.IBULayer`1">
+            <summary>
+            BU层必须实现的公用方法接口
+            </summary>
+            <typeparam name="T"></typeparam>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.IBULayer`1.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.IBULayer`1.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.IBULayer`1.Update(`0)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.IBULayer`1.Insert(`0)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.IBULayer`1.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:CMS.BULayer.BUT_SysLog.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUT_SysLog.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.BULayer.BUT_SysLog.Update(CMS.Model.ModelT_SysLog)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUT_SysLog.Insert(CMS.Model.ModelT_SysLog)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUT_SysLog.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:CMS.BULayer.BUT_SysLog.InsertSysLog(CMS.BULayer.VariedEnum.LogType,System.Int32,System.String)">
+            <summary>
+            添加系系统日志信息：paramLogType：日志类型，paramOperatorID：操作员ID，paramDescription：描述
+            </summary>
+            <param name="paramLogType">日志类型枚举</param>
+            <param name="paramOperatorID">操作员ID</param>
+            <param name="paramDescription">详细描述</param>
+        </member>
+        <member name="M:CMS.BULayer.BUT_SysLog.InsertSysLog(System.Exception,System.Int32)">
+            <summary>
+            添加系系统日志信息：paramEx：异常实例，paramOperatorID：操作员ID
+            </summary>
+            <param name="paramEx">异常实例</param>
+            <param name="paramOperatorID">操作员ID</param>
+            创建人：桂书丛
+            创建日期：2013-02-26
+        </member>
+        <member name="M:CMS.BULayer.BUT_SysLog.ClearSysLog">
+            <summary>
+            清空所有日志记录
+            </summary>
+        </member>
+        <member name="T:CMS.BULayer.BUCMS_VIPClient">
+            <summary>
+            业务逻辑类BUCMS_VIPClient
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_VIPClient.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_VIPClient.GetOrderVIPClient(System.Boolean,System.String,System.String)">
+            <summary>
+            这个方法专门查询客户/会员信息。因为这两个信息在一张表中
+            </summary>
+            <param name="IsClient"></param>
+            <param name="paramField"></param>
+            <param name="paramContent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_VIPClient.VIPSearch(System.Boolean,System.String,System.String)">
+            <summary>
+            专门查询会员信息(要用的连表查询，Sql语句不一样)(按其他条件或全部查询)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_VIPClient.VIPSearch(System.Boolean,System.DateTime,System.DateTime)">
+            <summary>
+            专门查询会员信息(要用的连表查询，Sql语句不一样)按条件查询
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_VIPClient.GetOnlyOne(System.String)">
+            <summary>
+            获取一列
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_VIPClient.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_VIPClient.GetOrderVIPClientOnDate(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            用来按时间条件查询会员/客户信息
+            </summary>
+            <param name="IsClient"></param>
+            <param name="paramStart"></param>
+            <param name="paramEnd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_VIPClient.Update(CMS.Model.ModelCMS_VIPClient)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_VIPClient.Update(CMS.Model.ModelCMS_VIPClient,System.String)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_VIPClient.Insert(CMS.Model.ModelCMS_VIPClient)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model">The model.</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_VIPClient.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.BULayer.BUCMS_InGoods">
+            <summary>
+            业务逻辑类BUCMS_InGoods   
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_InGoods.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_InGoods.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_InGoods.Update(CMS.Model.ModelCMS_InGoods)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_InGoods.Insert(CMS.Model.ModelCMS_InGoods)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_InGoods.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.BULayer.VariedDefault">
+            <summary>
+            
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-02-02
+        </member>
+        <member name="F:CMS.BULayer.VariedDefault.DefaultTasteID">
+            <summary>
+            默认口味ID
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-02-02
+        </member>
+        <member name="F:CMS.BULayer.VariedDefault.DefaultPayType">
+            <summary>
+            默认支付方式
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-02-02
+        </member>
+        <member name="F:CMS.BULayer.VariedDefault.DefaultWorkState">
+            <summary>
+            默认员工工作状态
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-02-02
+        </member>
+        <member name="T:CMS.BULayer.BUCMS_RetreatDishes">
+            <summary>
+            业务逻辑类BUCMS_RetreatDishes   
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_RetreatDishes.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_RetreatDishes.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_RetreatDishes.Update(CMS.Model.ModelCMS_RetreatDishes)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_RetreatDishes.Insert(CMS.Model.ModelCMS_RetreatDishes)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_RetreatDishes.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:CMS.BULayer.BUCMS_RetreatDishes.ClearRetreatDishes">
+            <summary>
+            清空所有退菜记录
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_RetreatDishes.GetOrder(System.String,System.String)">
+            <summary>
+             查询(方法重载)按其他字段查询
+            </summary>
+            <param name="paramFileName"></param>
+            <param name="paramMarValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_RetreatDishes.GetOrder(System.DateTime,System.DateTime)">
+            <summary>
+             查询(方法重载)专门按时间查询
+            </summary>
+            <param name="paramFileName"></param>
+            <param name="paramMarValue"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CMS.BULayer.BUCMS_BorrowGoods">
+            <summary>
+            业务逻辑类BUCMS_BorrowGoods   
+            </summary>
+        </member>
+        <member name="T:CMS.BULayer.BUCMS_Consumption">
+            <summary>
+            业务逻辑类BUCMS_Consumption   
+            </summary>
+        </member>
+        <member name="T:CMS.BULayer.BUT_ItemDetail">
+            <summary>
+            业务逻辑类BUT_ItemDetail   
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUT_ItemDetail.GetItemByType(System.String)">
+            <summary>
+            根据项目类型获得对应项目信息
+            </summary>
+            <param name="paramItemType">项目类型</param>
+            <returns></returns>
+        </member>
+        <member name="T:CMS.BULayer.BUCMS_VIPType">
+            <summary>
+            业务逻辑类BUCMS_VIPType   
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_VIPType.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_VIPType.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_VIPType.Update(CMS.Model.ModelCMS_VIPType)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_VIPType.Insert(CMS.Model.ModelCMS_VIPType)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model">The model.</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_VIPType.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:CMS.BULayer.BUT_User.GetAllUserInfo">
+            <summary>
+            获得所有用户的信息
+            </summary>
+            <returns>存储用户信息的DataSet</returns>
+        </member>
+        <member name="M:CMS.BULayer.BUT_User.CheckLogin(System.String,System.String)">
+            <summary>
+            检测用户登陆
+            </summary>
+            <param name="paramUserName">用户名称</param>
+            <param name="paramPassword">用户密码</param>
+            <returns>用户登陆状态</returns>
+        </member>
+        <member name="M:CMS.BULayer.BUT_User.GetUserPWD(System.Int32)">
+            <summary>
+            根据用户ID获得用户密码
+            </summary>
+            <param name="paramUserID">用户ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUT_User.UpdateUserInfo(CMS.Model.ModelT_User)">
+            <summary>
+            更新用户信息
+            </summary>
+            <param name="paramModelT_User">用户实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUT_User.AddUserInfo(CMS.Model.ModelT_User)">
+            <summary>
+            新建用户
+            </summary>
+            <param name="paramUserInfo">用户实体</param>
+            <returns>影响的行数</returns>
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUT_User.DeleteUser(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:CMS.BULayer.BUT_User.GetUserRight(System.String,System.String)">
+            <summary>
+            得到用户权限
+            </summary>
+            <param name="paramUserName">用户名称</param>
+            <param name="UserPassword">用户密码</param>
+            <returnsL>用户权限</returnsL>
+        </member>
+        <member name="M:CMS.BULayer.BUT_User.GetUserRightID(System.String,System.String)">
+            <summary>
+            得到用户权限ID
+            </summary>
+            <param name="paramUserName">用户名称</param>
+            <param name="paramPassword">用户密码</param>
+            <returns>object</returns>
+        </member>
+        <member name="M:CMS.BULayer.BUT_User.GetUserIDByName(System.String)">
+            <summary>
+            根据用户的名称得到用户ID
+            </summary>
+            <param name="paramUserName">用户名称</param>
+            <returns>影响的行数</returns>
+        </member>
+        <member name="T:CMS.BULayer.BUCMS_RoomType">
+            <summary>
+            业务逻辑类BUCMS_RoomType   
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_RoomType.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_RoomType.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_RoomType.Update(CMS.Model.ModelCMS_RoomType)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_RoomType.Insert(CMS.Model.ModelCMS_RoomType)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_RoomType.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.BULayer.BUCMS_ConsumptionReg">
+            <summary>
+            业务逻辑类BUCMS_ConsumptionReg
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ConsumptionReg.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ConsumptionReg.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ConsumptionReg.Update(CMS.Model.ModelCMS_ConsumptionReg)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ConsumptionReg.Insert(CMS.Model.ModelCMS_ConsumptionReg)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_ConsumptionReg.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:CMS.BULayer.BUCMS_ConsumptionReg.Delete">
+            <summary>
+            清空
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CMS.BULayer.BUCMS_ItemDetail">
+            <summary>
+            业务逻辑类BUCMS_ItemDetail
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ItemDetail.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ItemDetail.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ItemDetail.Update(CMS.Model.ModelCMS_ItemDetail)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ItemDetail.Insert(CMS.Model.ModelCMS_ItemDetail)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_ItemDetail.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:CMS.BULayer.BUCMS_ItemDetail.GetItemByType(System.String)">
+            <summary>
+            根据项目类型获得对应项目信息
+            </summary>
+            <param name="paramItemType">项目类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ItemDetail.GetOtherInstall(System.Int32)">
+            <summary>
+            grictrlOtherInstall数据绑定
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ItemDetail.RAddDishType(System.String,System.String)">
+            <summary>
+            添加菜品类别
+            </summary>
+            <param name="paramDishTypeNum">The param dish type num.</param>
+            <param name="paramtDishType">Type of the paramt dish.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ItemDetail.RAddDishTaste(System.String,System.String)">
+            <summary>
+            添加菜品类别
+            </summary>
+            <param name="paramDishTasteNum">The param dish taste num.</param>
+            <param name="paramDishTaste">The param dish taste.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ItemDetail.RGetQuitReason(System.String,System.String)">
+            <summary>
+            添加退菜原因
+            </summary>
+            <param name="paramQuitReasonNum"></param>
+            <param name="paramQuitReason"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ItemDetail.RGetBuffState(System.String,System.String)">
+            <summary>
+            添加餐台状态
+            </summary>
+            <param name="paramBuffStateNum"></param>
+            <param name="paramBuffState"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ItemDetail.RGetOtherInstall(System.String,System.String)">
+            <summary>
+            添加其他设置
+            </summary>
+            <param name="paramBuffStateNum"></param>
+            <param name="paramBuffState"></param>
+            <returns></returns>
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_ItemDetail.RDeleDishType(System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_ItemDetail.RDeleDishTaste(System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_ItemDetail.RDeleQuitReason(System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_ItemDetail.RDeleBuffState(System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_ItemDetail.RDeleOtherInstall(System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_ItemDetail.RAlterDishType(System.String,System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_ItemDetail.RAlterDishTaste(System.String,System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_ItemDetail.RAlterQuitReason(System.String,System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_ItemDetail.RAlterBuffState(System.String,System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_ItemDetail.RAlterOtherInstall(System.String,System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.BULayer.VariedEnum">
+            <summary>
+            系统枚举
+            </summary>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="T:CMS.BULayer.VariedEnum.UserLoginStatus">
+            <summary>
+            用户登陆状态枚举
+            </summary>
+        </member>
+        <member name="T:CMS.BULayer.VariedEnum.OperatorStatus">
+            <summary>
+            信息操作状态枚举
+            </summary>
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.OperatorStatus.Failed">
+            <summary>
+            失败
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.OperatorStatus.Successed">
+            <summary>
+            成功
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.OperatorStatus.UnknowError">
+            <summary>
+            未知错误
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="T:CMS.BULayer.VariedEnum.BuffetStatus">
+            <summary>
+            餐台使用状态
+            </summary>
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.BuffetStatus.空闲">
+            <summary>
+            空闲 = 1
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.BuffetStatus.占用">
+            <summary>
+            占用 =2
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.BuffetStatus.预定">
+            <summary>
+            预定 = 3
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.BuffetStatus.脏台">
+            <summary>
+            脏台 = 4
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.BuffetStatus.未定义">
+            <summary>
+            未定义 = 5
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="T:CMS.BULayer.VariedEnum.ConsumeWay">
+            <summary>
+            消费方式
+            </summary>
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.ConsumeWay.饭店消费">
+            <summary>
+            饭店消费 = 145
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.ConsumeWay.外卖">
+            <summary>
+            外卖 = 146
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="T:CMS.BULayer.VariedEnum.LogType">
+            <summary>
+            系统日志类型
+            </summary>
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.LogType.数据操作">
+            <summary>
+            数据操作=1
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.LogType.系统事件">
+            <summary>
+            系统事件 = 2
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.LogType.系统异常">
+            <summary>
+            系统异常=3
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="T:CMS.BULayer.VariedEnum.ItemType">
+            <summary>
+            项目类别枚举
+            </summary>
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.ItemType.DishType">
+            <summary>
+            菜品类别
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.ItemType.TasteType">
+            <summary>
+            菜品口味
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.ItemType.RoomFloor">
+            <summary>
+            房间楼层
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.ItemType.BuffetStatus">
+            <summary>
+            餐台使用状态
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.ItemType.BackResult">
+            <summary>
+            退菜原因
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.ItemType.WorkStatus">
+            <summary>
+            员工工作状态
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.ItemType.ConsumeType">
+            <summary>
+            消费类型
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.ItemType.PayType">
+            <summary>
+            支付方式
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="T:CMS.BULayer.VariedEnum.PayType">
+            <summary>
+            支付方式
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="F:CMS.BULayer.VariedEnum.PayType.VIPPay">
+            <summary>
+            VIP消费
+            </summary>
+            创建人：桂书丛
+            创建时间：2013-03-02
+        </member>
+        <member name="T:CMS.BULayer.BUCMS_Buffets">
+            <summary>
+            业务逻辑类BUCMS_Buffets   
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_Buffets.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_Buffets.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_Buffets.Update(CMS.Model.ModelCMS_Buffets)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_Buffets.Insert(CMS.Model.ModelCMS_Buffets)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_Buffets.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.BULayer.BUT_Right">
+            <summary>
+            业务逻辑类BUT_Right   
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUT_Right.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUT_Right.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.BULayer.BUT_Right.Update(CMS.Model.ModelT_Right)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUT_Right.Insert(CMS.Model.ModelT_Right)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUT_Right.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:CMS.BULayer.VariedItemType.GetSysItemTypeName(System.Int32)">
+            <summary>
+            通过Key获得其对应的Value的值
+            </summary>
+            <param name="paramKey">Key</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.VariedItemType.GetSysItemTypeDictionary">
+            <summary>
+            获得系统项目类别词典
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:CMS.BULayer.VariedItemType.DishType">
+            <summary>
+            菜品类别
+            </summary>
+        </member>
+        <member name="P:CMS.BULayer.VariedItemType.TasteType">
+            <summary>
+            菜品口味
+            </summary>
+        </member>
+        <member name="P:CMS.BULayer.VariedItemType.RoomFloor">
+            <summary>
+            房间楼层
+            </summary>
+        </member>
+        <member name="P:CMS.BULayer.VariedItemType.BuffetStatus">
+            <summary>
+            餐台使用状态
+            </summary>
+        </member>
+        <member name="P:CMS.BULayer.VariedItemType.BackResult">
+            <summary>
+            退菜原因
+            </summary>
+        </member>
+        <member name="P:CMS.BULayer.VariedItemType.WorkStatus">
+            <summary>
+            员工工作状态
+            </summary>
+        </member>
+        <member name="P:CMS.BULayer.VariedItemType.ConsumeType">
+            <summary>
+            消费类型
+            </summary>
+        </member>
+        <member name="P:CMS.BULayer.VariedItemType.PayType">
+            <summary>
+            支付方式
+            </summary>
+        </member>
+        <member name="T:CMS.BULayer.BUCMS_Equipment">
+            <summary>
+            业务逻辑类BUCMS_Equipment   
+            </summary>
+        </member>
+        <member name="T:CMS.BULayer.BUT_Module">
+            <summary>
+            业务逻辑类BUT_Module   
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUT_Module.GetUserModule(System.String)">
+            <summary>
+            根据用户权限ID获得用户可访问的模块
+            </summary>
+            <param name="paramUserRightID">用户权限ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUT_Module.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUT_Module.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.BULayer.BUT_Module.Update(CMS.Model.ModelT_Module)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUT_Module.Insert(CMS.Model.ModelT_Module)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUT_Module.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.BULayer.BUCMS_Employee">
+            <summary>
+            业务逻辑类BUCMS_Employee   
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_Employee.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_Employee.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_Employee.Update(CMS.Model.ModelCMS_Employee)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_Employee.Insert(CMS.Model.ModelCMS_Employee)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_Employee.Delete(System.String)">
+            <summary>
+            删除一条数据记录
+            </summary>
+            <param name="paramID">记录ID</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_Employee.GetOrderView(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            Gets the order view.
+            </summary>
+            <param name="IsView">if set to <c>true</c> [is view].</param>
+            <param name="paramField">The param field.</param>
+            <param name="paramContent">Content of the param.</param>
+            <param name="IsFuzzy">if set to <c>true</c> [is fuzzy].</param>
+            <returns></returns>
+            整理人：桂书丛
+            整理时间：2013-02-06
+        </member>
+        <member name="T:CMS.BULayer.BUT_Right_Module_Map">
+            <summary>
+            业务逻辑类BUT_Right_Module_Map   
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUT_Right_Module_Map.GetRightModule(System.String)">
+            <summary>
+            根据权限ID获得可访问的模块
+            </summary>
+            <param name="paramRightID">权限ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUT_Right_Module_Map.Insert(System.Int32,System.Int32,System.String)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="paramRightID">权限ID</param>
+            <param name="paramModuleID">模块ID</param>
+            <param name="paramCreatePerson">创建人</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUT_Right_Module_Map.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUT_Right_Module_Map.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.BULayer.BUT_Right_Module_Map.Update(CMS.Model.ModelT_Right_Module_Map)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUT_Right_Module_Map.Insert(CMS.Model.ModelT_Right_Module_Map)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUT_Right_Module_Map.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.BULayer.BUCMS_DishServer">
+            <summary>
+            业务逻辑类BUCMS_DishServer   
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_DishServer.UpdateDishServer(System.String,System.String,System.String,System.String)">
+            <summary>
+            根据字段和相应的值更新数据信息
+            </summary>
+            <param name="paramWhereField">条件字段名称</param>
+            <param name="paramWhereContent">条件字段值</param>
+            <param name="paramField">要更新的字段名称</param>
+            <param name="paramContent">要更新的字段值</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_DishServer.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_DishServer.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_DishServer.Update(CMS.Model.ModelCMS_DishServer)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_DishServer.Insert(CMS.Model.ModelCMS_DishServer)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_DishServer.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:CMS.BULayer.BUCMS_DishServer.GetAllColumns">
+            <summary>
+            获得表中的所有字段
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_DishServer.GetOrder(System.String)">
+            <summary>
+            超级模糊查询
+            </summary>
+            <param name="paramCondition">查询条件</param>
+            <returns></returns>
+        </member>
+        <member name="T:CMS.BULayer.BUT_ItemType">
+            <summary>
+            业务逻辑类BUT_ItemType   
+            </summary>
+        </member>
+        <member name="T:CMS.BULayer.BUCMS_Stock">
+            <summary>
+            业务逻辑类BUCMS_Stock   
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_Stock.UpdateStock(System.String,System.String,System.String)">
+            <summary>
+            根据字段和相应的值更新数据信息
+            </summary>
+            <param name="paramIDContent">条件字段值,条件字段为ID</param>
+            <param name="paramField">要更新的字段名称</param>
+            <param name="paramContent">要更新的字段值</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_Stock.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-23
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_Stock.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_Stock.Update(CMS.Model.ModelCMS_Stock)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_Stock.Insert(CMS.Model.ModelCMS_Stock)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-23
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_Stock.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.BULayer.BUCMS_PaymentsItem">
+            <summary>
+            业务逻辑类BUCMS_PaymentsItem   
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_PaymentsItem.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-3-2
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_PaymentsItem.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_PaymentsItem.Update(CMS.Model.ModelCMS_PaymentsItem)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_PaymentsItem.Insert(CMS.Model.ModelCMS_PaymentsItem)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_PaymentsItem.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.BULayer.BUCMS_Performance">
+            <summary>
+            业务逻辑类BUCMS_Performance   
+            </summary>
+        </member>
+        <member name="T:CMS.BULayer.BUCMS_ItemType">
+            <summary>
+            业务逻辑类BUCMS_ItemType   
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ItemType.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ItemType.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ItemType.Update(CMS.Model.ModelCMS_ItemType)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ItemType.Insert(CMS.Model.ModelCMS_ItemType)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_ItemType.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.BULayer.BUCMS_ReturnGoods">
+            <summary>
+            业务逻辑类BUCMS_ReturnGoods   
+            </summary>
+        </member>
+        <member name="T:CMS.BULayer.BUCMS_DPInfo">
+            <summary>
+            业务逻辑类BUCMS_DPInfo   
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_DPInfo.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_DPInfo.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_DPInfo.Update(CMS.Model.ModelCMS_DPInfo)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_DPInfo.Insert(CMS.Model.ModelCMS_DPInfo)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model">The model.</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_DPInfo.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.BULayer.BUCMS_PaymentsDetail">
+            <summary>
+            业务逻辑类BUCMS_PaymentsDetail   
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_PaymentsDetail.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-3-3
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_PaymentsDetail.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-3-3
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_PaymentsDetail.Update(CMS.Model.ModelCMS_PaymentsDetail)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_PaymentsDetail.Insert(CMS.Model.ModelCMS_PaymentsDetail)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_PaymentsDetail.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.BULayer.BUCMS_ConsumptionDish">
+            <summary>
+            业务逻辑类BUCMS_ConsumptionDish   
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ConsumptionDish.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ConsumptionDish.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ConsumptionDish.Update(CMS.Model.ModelCMS_ConsumptionDish)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_ConsumptionDish.Insert(CMS.Model.ModelCMS_ConsumptionDish)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-22
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_ConsumptionDish.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="T:CMS.BULayer.BUCMS_BuffetBooking">
+            <summary>
+            业务逻辑类BUCMS_BuffetBooking   
+            </summary>
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_BuffetBooking.GetOrder(System.Boolean,System.String,System.String,System.Boolean)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，当paramField和paramContent都为空时表示获得全部数据
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramContent">字段内容</param>
+            <param name="IsFuzzy">此查询是否是模糊询，false不是</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-28
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_BuffetBooking.GetOrder(System.Boolean,System.String,System.DateTime,System.DateTime)">
+            <summary>
+            根据字段名称和字段值获得指定的数据，此方法针对时间查询
+            </summary>
+            <param name="IsView">数据源是表还是视图，false是表</param>
+            <param name="paramField">字段名称</param>
+            <param name="paramStart">开始时间</param>
+            <param name="paramEnd">结束时间</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建时间：2013-2-23
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_BuffetBooking.Update(CMS.Model.ModelCMS_BuffetBooking)">
+            <summary>
+            更新一条数据记录
+            </summary>
+            <param name="model">实体类实例</param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-28
+        </member>
+        <member name="M:CMS.BULayer.BUCMS_BuffetBooking.Insert(CMS.Model.ModelCMS_BuffetBooking)">
+            <summary>
+            插入一条数据记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+            创建人：桂书丛
+            创建日期：2013-02-28
+        </member>
+        <!-- 对于成员“M:CMS.BULayer.BUCMS_BuffetBooking.Delete(System.String)”忽略有格式错误的 XML 注释 -->
+    </members>
+</doc>

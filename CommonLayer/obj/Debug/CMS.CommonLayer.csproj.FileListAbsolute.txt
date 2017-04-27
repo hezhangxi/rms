@@ -1,0 +1,55 @@
+F:\CMS\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.dll
+F:\CMS\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.pdb
+F:\CMS\CMS.CommonLayer\obj\Debug\ResolveAssemblyReference.cache
+F:\CMS\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.dll
+F:\CMS\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.CommonLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.CommonLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.01\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.CommonLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.02\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.CommonLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.03\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.CommonLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.220\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.CommonLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.225\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.CommonLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2212\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.CommonLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.2303\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.CommonLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3303\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.CommonLayer\bin\Debug\CMS.CommonLayer.pdb
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.CommonLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.dll
+C:\Documents and Settings\Administrator\桌面\CMS 1.0.3310\CMS.CommonLayer\obj\Debug\CMS.CommonLayer.pdb
